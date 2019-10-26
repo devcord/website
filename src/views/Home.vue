@@ -36,6 +36,13 @@ section {
       padding: 0.5rem 1rem;
       font-weight: 500;
       font-size: 16px;
+      transition: 0.1s;
+
+      &:hover {
+        background-color: #f0133d;
+        transform: scale(1.05);
+        cursor: pointer;
+      }
     }
   }
 }

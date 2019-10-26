@@ -38,6 +38,13 @@ nav {
       background-color: #212121;
       color: #ffffff;
       margin-right: 0;
+      transition: 0.2s;
+
+      &:hover {
+        background-color: #f0133d;
+        transform: scale(1.05);
+        cursor: pointer;
+      }
     }
   }
 
