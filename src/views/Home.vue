@@ -20,7 +20,7 @@ section {
     margin: 20vh 0;
 
     h1 {
-      font-size: 3vw;
+      font-size: 64px;
       margin: 0rem;
     }
 
@@ -39,5 +39,4 @@ section {
     }
   }
 }
-
 </style>
