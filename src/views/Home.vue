@@ -7,7 +7,19 @@ main
       button.join--button(href="https://discord.gg/devcord", title="Join 5000 others on devcord!")  Join us on Discord
   section.background--dark
     .content
-      h1 tbd
+      .wrapper
+        .card
+          h2 Active Community
+          p With over 5000 registered users and ~1000 online users, we have a very active Discord community with users from all around the globe.
+        .card
+          h2 Friendly NPCs
+          p Find new friends, talk about webdevelopment, side projects, ask for help, talk about gaming, music and other off-topics.
+        .card
+          h2 Open Source
+          p Work on our open source projects together with our community. Find out more about our projects on our Github Team page.
+  section
+    .content
+      h1 more coming soon
 </template>
 
 <style lang="scss" scoped>
@@ -18,6 +30,31 @@ section {
 
   .content {
     margin: 20vh 0;
+
+    .wrapper {
+      display:flex;
+      justify-content: space-between;
+
+      .card {
+        flex: 1;
+        color: #212121;
+        background-color: #ffffff;
+        padding: 2rem;
+        margin-right: 2rem;;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        h2 {
+          margin-top: 0;
+        }
+
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
 
     h1 {
       font-size: 64px;
