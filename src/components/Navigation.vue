@@ -33,6 +33,13 @@ nav {
     margin-right: 0.5rem;
     color: #212121;
     font-weight: 700;
+    box-shadow: inset 0 0 0 0 #f0134d;
+    transition: 0.2s;
+
+    &:hover {
+      color: #ffffff;
+      box-shadow: inset 0 -2.5rem 0 0  #f0134d;
+    }
 
     &.join--button {
       background-color: #212121;
@@ -41,8 +48,8 @@ nav {
       transition: 0.2s;
 
       &:hover {
-        background-color: #f0133d;
-        transform: scale(1.05);
+        //background-color: #f0133d;
+        transform: scale(1.02);
         cursor: pointer;
       }
     }

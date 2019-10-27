@@ -39,8 +39,8 @@ section {
         flex: 1;
         color: #212121;
         background-color: #ffffff;
-        padding: 2rem;
-        margin-right: 2rem;;
+        padding: 1rem 2rem 2rem 2rem;
+        margin-right: 1rem;
 
         &:last-child {
           margin-right: 0;
@@ -73,12 +73,12 @@ section {
       padding: 0.5rem 1rem;
       font-weight: 500;
       font-size: 16px;
-      transition: 0.1s;
+      transition: 0.2s;
       display: inline-block;
 
       &:hover {
-        background-color: #f0133d;
-        transform: scale(1.05);
+        box-shadow: inset 0 -2.5rem 0 0  #212121;
+        transform: scale(1.01);
         cursor: pointer;
       }
     }

@@ -1,15 +1,18 @@
 <template lang="pug">
   #app
     Navigation
+    Cookie
     router-view
 </template>
 
 <script>
 import Navigation from '@/components/Navigation.vue';
+import Cookie from '@/components/Cookie.vue';
 
 export default {
   components: {
-    Navigation
+    Navigation,
+    Cookie
   }
 };
 </script>
@@ -44,4 +47,18 @@ main {
     color: #ffffff;
   }
 }
+
+.highlighted {
+  text-decoration: none;
+  box-shadow: inset 0 -0.2rem 0 0 #f0134d;
+  color: #212121;
+  padding: 0 5px;
+  transition: 0.2s;
+
+  &:hover {
+    box-shadow: inset 0 -2.5rem 0 0 #f0134d;
+    color: white;
+  }
+}
+
 </style>
