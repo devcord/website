@@ -29,7 +29,7 @@ section {
   align-items: center;
 
   .content {
-    margin: 20vh 0;
+    margin: 20vh 1rem;
 
     .wrapper {
       display:flex;
