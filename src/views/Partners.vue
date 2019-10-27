@@ -2,7 +2,7 @@
 main
   section
     .content
-      h1 Our partners
+      h1 Our Partners
       h3 Domaincord
       i more soon
       h3 DesignDrop

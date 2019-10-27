@@ -2,7 +2,7 @@
 main
   section
     .content
-      h1 Our projects
+      h1 Our Projects
       a(href="https://github.com/devcord", title="See our projects on Github") Github
 </template>
 
