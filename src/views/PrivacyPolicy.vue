@@ -58,10 +58,6 @@ export default {
   components: {
     OptOutIframe,
   },
-  data() {
-    return {
-    }
-  },
   methods: {
     restoreCookieNotice() {
       if(typeof(Storage) !== 'undefined'){
@@ -74,7 +70,6 @@ export default {
         let cookieNotice = localStorage.getItem('cookieNoticeRestore')
         if(cookieNotice === true) {
           this.showRestore = true
-          console.log('as', this.showRestore)
         } else {
           this.showRestore = false
         }
