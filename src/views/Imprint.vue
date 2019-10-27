@@ -19,6 +19,11 @@ main
 </template>
 
 <style lang="scss" scoped>
+section {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 h2 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
