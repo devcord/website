@@ -8,6 +8,7 @@ nav
       router-link(to="/partners") Partners
       router-link(to="/github") Github
       router-link(to="/privacy-policy") Privacy Policy
+      router-link(to="/imprint") Imprint
     a.join--button(href="https://discord.gg/devcord", title="Join 5000 others on devcord!")  Join us
 </template>
 

@@ -47,6 +47,13 @@ const routes = [
     component: function () {
       return import( /* webpackChunkName: "about" */ "@/views/CookiePolicy.vue");
     }
+  },
+  {
+    path: "/imprint",
+    name: "imprint",
+    component: function () {
+      return import( /* webpackChunkName: "about" */ "@/views/Imprint.vue");
+    }
   }
 ];
 
