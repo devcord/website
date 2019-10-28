@@ -1,7 +1,6 @@
 <template lang="pug">
 main
   section
-    TextWall
     .content
       h1 Looking for new friends?
       p Devcord is a community that brings together web developers of all experience levels. Get help with your code, connect with other web developers, discuss your current project and chat about your favourite languages, libraries, and frameworks.
