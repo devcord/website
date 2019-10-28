@@ -4,11 +4,9 @@ nav
     .nav--links
       img(src='@/assets/logo.svg')
       router-link(to="/") Home
-      router-link(to="/about") About
+      router-link(to="/about") About Us
       router-link(to="/partners") Partners
-      router-link(to="/github") Github
-      router-link(to="/privacy-policy") Privacy Policy
-      router-link(to="/imprint") Imprint
+      router-link(to="/projects") Projects
     a.join--button(href="https://discord.gg/devcord", title="Join 5000 others on devcord!")  Join us
 </template>
 

@@ -28,10 +28,10 @@ const routes = [
     }
   },
   {
-    path: "/github",
-    name: "github",
+    path: "/projects",
+    name: "projects",
     component: function () {
-      return import( /* webpackChunkName: "about" */ "@/views/Github.vue");
+      return import( /* webpackChunkName: "about" */ "@/views/Projects.vue");
     }
   },
   {

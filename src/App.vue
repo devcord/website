@@ -3,16 +3,19 @@
     Navigation
     Cookie
     router-view
+    Footer
 </template>
 
 <script>
 import Navigation from '@/components/Navigation.vue';
 import Cookie from '@/components/Cookie.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   components: {
     Navigation,
-    Cookie
+    Cookie,
+    Footer
   }
 };
 </script>
@@ -23,10 +26,6 @@ export default {
 body {
   margin: 0 auto;
   font-family: "Poppins", "Arial Narrow", Arial, sans-serif;
-}
-
-a {
-  text-decoration: none;
 }
 
 main {
@@ -47,6 +46,23 @@ main {
     color: #ffffff;
   }
 }
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    color: #f0134d;
+  }
+}
+
+.router-link-exact-active {
+  color: #f0134d !important;
+
+  &:hover {
+    color: white;
+  }
+}
+
 
 .highlighted {
   text-decoration: none;
