@@ -26,6 +26,7 @@ export default {
 body {
   margin: 0 auto;
   font-family: "Poppins", "Arial Narrow", Arial, sans-serif;
+  background-color: #f4f4f4;
 }
 
 main {
@@ -45,6 +46,10 @@ main {
     background-color: #212121;
     color: #ffffff;
   }
+}
+
+h1 {
+  font-size: 48px;
 }
 
 a {
