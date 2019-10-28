@@ -22,16 +22,6 @@ main
       h1 more coming soon
 </template>
 
-<script>
-import TextWall from '@/components/TextWall.vue'
-
-export default {
-  components: {
-    TextWall
-  }
-}
-</script>
-
 <style lang="scss" scoped>
 section {
   display: flex;
