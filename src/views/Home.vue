@@ -57,7 +57,6 @@ section {
     }
 
     h1 {
-      font-size: 64px;
       margin: 0rem;
     }
 
@@ -77,8 +76,7 @@ section {
       display: inline-block;
 
       &:hover {
-        box-shadow: inset 0 3rem 0 0  #212121;
-        transform: scale(1.01);
+        box-shadow: inset 0 -3rem 0 0  #212121;
         cursor: pointer;
       }
     }
