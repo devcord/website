@@ -23,6 +23,8 @@ section {
   display:flex;
   justify-content: center;
   align-items: center;
+
+  margin-bottom: 10vh;
 }
 h2 {
   margin-top: 2rem;
