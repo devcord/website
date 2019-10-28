@@ -37,7 +37,7 @@ nav {
 
     &:hover {
       color: #ffffff;
-      box-shadow: inset 0 -2.5rem 0 0  #f0134d;
+      box-shadow: inset 0 -3rem 0 0  #f0134d;
     }
 
     &.join--button {

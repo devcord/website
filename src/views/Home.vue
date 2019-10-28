@@ -1,12 +1,10 @@
 <template lang="pug">
 main
   section
-
     .content
       h1 Looking for new friends?
       p Devcord is a community that brings together web developers of all experience levels. Get help with your code, connect with other web developers, discuss your current project and chat about your favourite languages, libraries, and frameworks.
       a.join--button(href="https://discord.gg/devcord", title="Join 5000 others on devcord!")  Join us on Discord
-      #binary
   section.background--dark
     .content
       .wrapper
@@ -23,30 +21,6 @@ main
     .content
       h1 more coming soon
 </template>
-
-<script>
-export default {
-  created() {
-    const dec2hex = (dec) => {
-      return ('0' + dec.toString(16)).substr(-2)
-    }
-
-    const generateId = (len) => {
-      let arr = new Uint8Array((len || 40) / 2)
-      window.crypto.getRandomValues(arr)
-
-      return Array.from(arr, dec2hex).join('')
-    }
-
-    const generateText = () => {
-      let randomString = generateId(100000)
-      document.getElementById('binary').innerHTML = randomString
-    }
-
-    window.setInterval(generateText, 50)
-  }
-}
-</script>
 
 <style lang="scss" scoped>
 section {
@@ -81,19 +55,6 @@ section {
         }
       }
     }
-    #binary {
-      position: absolute;
-      width: 100vw;
-      height: 70vh;
-      top: 72px;
-      left: 0;
-      overflow-wrap: break-word;
-      color: #eee;
-      font-size: 12px;
-      text-transform: uppercase;
-      overflow: hidden;
-      z-index: -1;
-    }
 
     h1 {
       font-size: 64px;
@@ -116,7 +77,7 @@ section {
       display: inline-block;
 
       &:hover {
-        box-shadow: inset 0 -2.5rem 0 0  #212121;
+        box-shadow: inset 0 3rem 0 0  #212121;
         transform: scale(1.01);
         cursor: pointer;
       }
