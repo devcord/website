@@ -2,7 +2,7 @@
 main
   section
     .content
-      h1 Our Partners
+      h1 Partners
       h3 Domaincord
       i tbd
       p
@@ -20,5 +20,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  margin-bottom: 10vh;
 }
 </style>
