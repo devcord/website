@@ -35,6 +35,12 @@ nav {
     box-shadow: inset 0 0 0 0 #f0134d;
     transition: 0.2s;
 
+    &.router-link-exact-active {
+      &:hover {
+        color: #ffffff !important;
+      }
+    }
+
     &:hover {
       color: #ffffff;
       box-shadow: inset 0 -3rem 0 0  #f0134d;
