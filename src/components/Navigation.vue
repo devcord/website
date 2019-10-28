@@ -4,7 +4,7 @@ nav
     .nav--links
       img(src='@/assets/logo.svg')
       router-link(to="/") Home
-      router-link(to="/about") About Us
+      router-link(to="/about") About
       router-link(to="/partners") Partners
       router-link(to="/projects") Projects
     a.join--button(href="https://discord.gg/devcord", title="Join 5000 others on devcord!")  Join us
@@ -15,6 +15,7 @@ nav {
   display: flex;
   justify-content: center;
   width: 100%;
+  background-color: #ffffff;
 
   .content {
     display: flex;
@@ -51,12 +52,7 @@ nav {
       color: #ffffff;
       margin-right: 0;
       transition: 0.2s;
-
-      &:hover {
-        //background-color: #f0133d;
-        transform: scale(1.02);
-        cursor: pointer;
-      }
+      cursor: pointer;
     }
   }
 
