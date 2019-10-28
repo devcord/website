@@ -6,6 +6,7 @@ main
       p Founded by klatsche
       i tbd
       h2 Live Stats
+      p Here are some live stats from our discord.
       i tbd
       h2 Our Staff
       .cards
@@ -16,6 +17,9 @@ main
         .card.card--admin
           h3 JacobParis#6933
           small Admin
+        .card.card--admin
+          h3 klatsche#2980
+          small Former Owner
         .card.card--admin
           h3 Poison Apple#9351
           small Admin
