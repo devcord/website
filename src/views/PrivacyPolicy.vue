@@ -4,6 +4,7 @@
       .content
         h1 Our Privacy Policy
         p This Privacy Policy describes how Devcord collects, uses and discloses information, and what choices you have with respect to the information. We respect the Browser's "Do Not Track" feature, you won't be affected by this policy if enabled.
+        p The scope of the privacy policy is exclusively this website.
 
         h2 Information We Collect
         p This website uses the web analysis service software Matomo (www.matomo.org), a service of the provider InnoCraft Ltd., 150 Willis St, 6011 Wellington, New Zealand, (“Matomo”) to collect and store data based on our legitimate interest in the statistical analysis of the user behavior for optimization and marketing purposes as per article 6(1) lit. f GDPR.
