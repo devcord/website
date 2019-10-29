@@ -3,10 +3,7 @@ main
   section
     .content
       h1 Who are we?
-      p Founded by klatsche in 2016, Devcord started as a small group of developers trying to help each other with daily code issues that may arise.
-      h2 Live Stats
-      p Here are some live stats from our discord.
-      i tbd
+      p Founded by klatsche in 2016, Devcord started as a small group of developers trying to help each other with daily code issues that may arise. The community slowly grew and became bigger every day. Once Devcord has hit 1000 members in 2017, the first user had to be banned. In 2019, the server founder klatsche moved on and passed the ownership to lost. Shortly after the server was partnered with discord. Within three years, Devcord grew beyond 5000 Users.
   section.about
     .content
       h1 Meet the team
@@ -17,18 +14,20 @@ main
               img(src="https://cdn.discordapp.com/avatars/126251022002814976/df9543d055d652f1830928ae04656fe7.png?size=128")
             .card--name
               p.label.label--owner Owner
-              h2 lost
+              h2 André Weller
           .card--details
-            p lost is a fullstack developer, based in Germany.
+            p André is a fullstack developer, based in Germany. His speciality is design and frontend with a strong background in Devops. He loves photography and cats.
+            a(href="https://lost.design", title="André Weller's Website").highlighted Web
         .card
           .card--meta
             .card--avatar
               img(src="https://cdn.discordapp.com/avatars/231856762750369793/77e9445ef53ed0cb143c46d2d554efb5.webp?size=128")
             .card--name
               p.label.label--admin Admin
-              h2 JacobParis
+              h2 Jacob Paris
           .card--details
-            p desc
+            p Jacob is a full stack web developer from Canada with a background in enterprise SaaS, React, AWS, and business development.
+            a(href="https://jacobparis.com", title="Jacob Paris's Website").highlighted Web
       .cards
         .card
           .card--meta
@@ -45,9 +44,9 @@ main
               img(src="https://cdn.discordapp.com/avatars/97466512444493824/1637e06a2560942299c6e67d9c01d548.png?size=128")
             .card--name
               p.label.label--admin Admin
-              h2 PoisonApple
+              h2 Andres Sweeney-Rios
           .card--details
-            p desc
+            p Andres is a passionate frontend and game developer located in USA.
 
       .cards
         .card
@@ -56,9 +55,10 @@ main
               img(src="https://cdn.discordapp.com/avatars/170451883134156800/ea3f4eac0a645aeee3aea4a93d977867.png?size=128")
             .card--name
               p.label.label--admin Admin
-              h2 RedXTech
+              h2 Gabe
           .card-details
-            p desc
+            p Gabe is a fullstack developer located in Canada. He specializes in vue.js and is studying software engineering. He is also the creator and maintainer of Devcords bot.
+            a(href="https://gabedunn.dev", title="Gabe Dunn's Website").highlighted Web
         .card
           .card--meta
             .card--avatar
@@ -81,7 +81,6 @@ main
         .card#you
           .card--name
             h2 How about you?
-      h2 MVPs
 </template>
 
 <style lang="scss" scoped>
@@ -94,6 +93,7 @@ section {
 
   &.about {
     padding-bottom: 10vh;
+    background-color: #212121;
   }
 }
 
@@ -105,11 +105,13 @@ section {
   margin-bottom: 1rem;
   margin-right: 1rem;
   flex: 1;
-  color: #212121;
+  color: #f4f4f4;
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
-  padding: 1rem;
+  background-color: #212121;
+  //padding: 1rem;
+  margin-bottom: 10vh;
+  margin-right: 5rem;
 
   &#you {
     display: flex;
@@ -144,6 +146,10 @@ section {
   }
 
   &--details {
+    p {
+      font-weight: 300;
+    }
+
     a {
       font-size: 12px;
     }
@@ -151,22 +157,26 @@ section {
 
   .label {
     display: inline-block;
-    text-align: center;
     margin: 0rem;
-    font-size: 11px;
-    color: #ffffff;
-    padding: 0rem .5rem;
+    font-size: 14px;
+    color: #f4f4f4;
+    letter-spacing: 5px;
+
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 
     &--owner {
-      background: #f0134d;
+      //background: #f0134d;
     }
 
     &--admin {
-      background: #ea1c1c;
+      //background: #ea1c1c;
     }
 
     &--mod {
-      background: #53ab68;
+      //background: #53ab68;
     }
 
   }

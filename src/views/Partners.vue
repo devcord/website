@@ -4,7 +4,7 @@ main
     .content
       h1 Partners
       h2 Domaincord
-      i tbd
+      p DomainCord is a community of passionate individuals that love domain names and anything to do with them! We are proud to be the first domain name community to be exclusively on the Discord platform. Join us in order to list domains for sale in our popular marketplace channels and even setup customized landing pages for each of your domains on our website.
       p
         a(href="https://domaincord.com/", title="Go to Domaincords Website").highlighted Domaincord
       br

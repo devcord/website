@@ -12,15 +12,15 @@ div(v-if="showNotice")
   margin: 1rem;
   bottom: 0;
   left: 0;
-  background-color: #212121;
+  background-color: #111111;
   padding: 0 1rem;
   border-radius: .3rem;
   box-shadow:inset 0px 0px 0px 2px #f0134d;
-  color: #ffffff;
+  color: #f4f4f4;
   z-index: 999;
 
   a {
-    color: #ffffff;
+    color: #f4f4f4;
   }
 
   p {

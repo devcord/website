@@ -21,12 +21,13 @@ export default {
 </script>
 
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap");
 
 body {
   margin: 0 auto;
   font-family: "Poppins", "Arial Narrow", Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #111111;
+  color: #f4f4f4
 }
 
 main {
@@ -44,7 +45,7 @@ main {
 .background {
   &--dark {
     background-color: #212121;
-    color: #ffffff;
+    color: #f4f4f4;
   }
 }
 
@@ -72,7 +73,7 @@ a {
 .highlighted {
   text-decoration: none;
   box-shadow: inset 0 -0.2rem 0 0 #f0134d;
-  color: #212121;
+  color: #f4f4f4;
   padding: 0 5px;
   transition: 0.2s;
 

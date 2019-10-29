@@ -3,8 +3,8 @@ main
   section
     .content
       h1 Projects
-      h2 Devmod
-      p The latest in a series of rewrites for devmod, a bot meant for moderation of discord servers, specifically devcord.
+      h2 devmod
+      p The latest in a series of rewrites for devmod, a bot meant for moderation of discord servers, specifically Devcord.
       p
         a(href="https://github.com/redxtech/devmod", title="See on Github").highlighted Source
       h2 Devcord Challenges

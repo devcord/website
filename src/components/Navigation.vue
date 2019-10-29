@@ -15,7 +15,9 @@ nav {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #212121;
+  position: sticky;
+  top: 0;
 
   .content {
     display: flex;
@@ -31,25 +33,25 @@ nav {
   a {
     padding: 0.5rem;
     margin-right: 0.5rem;
-    color: #212121;
+    color: #f4f4f4;
     font-weight: 700;
     box-shadow: inset 0 0 0 0 #f0134d;
     transition: 0.2s;
 
     &.router-link-exact-active {
       &:hover {
-        color: #ffffff !important;
+        color: #f4f4f4 !important;
       }
     }
 
     &:hover {
-      color: #ffffff;
+      color: #f4f4f4;
       box-shadow: inset 0 -3rem 0 0  #f0134d;
     }
 
     &.join--button {
-      background-color: #212121;
-      color: #ffffff;
+      background-color: #111111;
+      color: #f4f4f4;
       margin-right: 0;
       transition: 0.2s;
       cursor: pointer;
