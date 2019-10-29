@@ -98,4 +98,20 @@ section {
     }
   }
 }
+
+@media only screen and (max-width: 800px) {
+  section {
+    .content {
+      margin: 10vh 1rem;
+    }
+    .wrapper {
+      flex-direction: column;
+
+      .card {
+        margin-bottom: 1rem;
+        margin-right: 0rem !important;
+      }
+    }
+  }
+}
 </style>

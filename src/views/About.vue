@@ -181,5 +181,9 @@ section {
 
   }
 }
-
+@media only screen and (max-width: 800px) {
+  .cards {
+    flex-direction: column;
+  }
+}
 </style>
