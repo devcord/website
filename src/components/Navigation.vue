@@ -2,7 +2,13 @@
 nav
   .content
     .nav--links
-      img(src='@/assets/logo.svg')
+      router-link(to="/").logo
+        svg(width='40' height='40' viewbox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg')
+          rect#red(width='40' height='40' fill='#f0134d')
+          rect#black(width='40' height='40' fill='black')
+          path(d='M9.1439 6.62769H15.6095L21.1306 15.5166L15.5884 24.4575H9.1228L14.6589 15.5166L9.1439 6.62769Z' fill='white')
+          path(d='M30.7001 33.3463L24.2345 33.3463L18.7135 24.4575L24.2556 15.5166L30.7212 15.5166L25.1852 24.4575L30.7001 33.3463Z' fill='white')
+
       router-link(to="/") Home
       router-link(to="/about") About
       router-link(to="/partners") Partners
@@ -56,12 +62,27 @@ nav {
       transition: 0.2s;
       cursor: pointer;
     }
-  }
 
-  img {
-    width: 40px;
-    height: 40px;
-    margin-right: 2rem;
+    &.logo {
+      display: flex;
+      padding: 0;
+      margin-right: 1.5rem;
+
+      svg {
+        rect#black {
+          animation: fillBlackDown normal forwards 0.2s;
+        }
+      }
+
+      &:hover {
+        svg {
+          rect#black {
+            animation: fillRedUp normal forwards 0.2s;
+          }
+        }
+        box-shadow: none;
+      }
+    }
   }
 }
 
@@ -70,6 +91,26 @@ nav {
     img {
       margin-right: 1rem;
     }
+  }
+}
+
+@keyframes fillRedUp {
+  0% {
+    height: 100%;
+
+  }
+  100% {
+    height: 0%;
+  }
+}
+
+@keyframes fillBlackDown {
+  0% {
+    height: 0%;
+
+  }
+  100% {
+    height: 100%;
   }
 }
 </style>
