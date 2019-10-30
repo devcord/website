@@ -3,7 +3,8 @@ main
   section
     .content
       h1 Who are we?
-      p Founded by klatsche in 2016, Devcord started as a small group of developers trying to help each other with daily code issues that may arise. The community slowly grew and became bigger every day. Once Devcord has hit 1000 members in 2017, the first user had to be banned. In 2019, the server founder klatsche moved on and passed the ownership to lost. Shortly after the server was partnered with discord. Within three years, Devcord grew beyond 5000 Users.
+      p Founded by klatsche in 2016, Devcord started as a small group of developers trying to help each other with daily code issues that may arise.
+      p Official Discord Partner
   section.about
     .content
       h1 Meet the team
