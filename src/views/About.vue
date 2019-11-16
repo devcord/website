@@ -12,33 +12,33 @@ main
         .card
           .card--meta
             .card--avatar
-              img(src="https://cdn.discordapp.com/avatars/126251022002814976/df9543d055d652f1830928ae04656fe7.png?size=128")
+              img(src="https://cdn.discordapp.com/avatars/126251022002814976/595753cd7f7d427b0d03504e45f01ca8.png?size=128")
             .card--name
               p.label.label--owner Owner
               h2 André Weller
           .card--details
             p André is a fullstack developer, based in Germany. His speciality is design and frontend with a strong background in Devops. He loves photography and cats.
-            a(href="https://lost.design", title="André Weller's Website").highlighted Web
+            a(href="https://lost.design", title="André Weller's Website").highlighted Website
         .card
           .card--meta
             .card--avatar
-              img(src="https://cdn.discordapp.com/avatars/231856762750369793/77e9445ef53ed0cb143c46d2d554efb5.webp?size=128")
+              img(src="https://cdn.discordapp.com/avatars/231856762750369793/77e9445ef53ed0cb143c46d2d554efb5.png?size=128")
             .card--name
               p.label.label--admin Admin
               h2 Jacob Paris
           .card--details
             p Jacob is a full stack web developer from Canada with a background in enterprise SaaS, React, AWS, and business development.
-            a(href="https://jacobparis.com", title="Jacob Paris's Website").highlighted Web
+            a(href="https://jacobparis.com", title="Jacob Paris's Website").highlighted Website
       .cards
         .card
           .card--meta
             .card--avatar
-              img(src="https://cdn.discordapp.com/avatars/153591125221834752/e45077e09a3220d7f8ad79265ae119c0.png?size=128")
+              img(src="https://cdn.discordapp.com/avatars/153591125221834752/08f023e7ef35f745b9cb4ee250a54ad6.png?size=128")
             .card--name
               p.label.label--admin Founder
               h2 klatsche
           .card--details
-            p desc
+            p tbd
         .card
           .card--meta
             .card--avatar
@@ -59,7 +59,7 @@ main
               h2 Gabe
           .card-details
             p Gabe is a fullstack developer located in Canada. He specializes in vue.js and is studying software engineering. He is also the creator and maintainer of Devcords bot.
-            a(href="https://gabedunn.dev", title="Gabe Dunn's Website").highlighted Web
+            a(href="https://gabedunn.dev", title="Gabe Dunn's Website").highlighted Website
         .card
           .card--meta
             .card--avatar
@@ -68,7 +68,7 @@ main
               p.label.label--mod Mod
               h2 ℚ.
           .card--details
-            p desc
+            p tbd
       .cards
         .card
           .card--meta
@@ -78,10 +78,21 @@ main
               p.label.label--mod Mod
               h2 pvtHenk
           .card--details
-            p desc
+            p tbd
+        .card
+          .card--meta
+            .card--avatar
+              img(src="https://cdn.discordapp.com/avatars/307247078885818368/583570dd3dd28ce61c5b50d58dafc103.png?size=128")
+            .card--name
+              p.label.label--mod Mod
+              h2 polarbeer
+          .card--details
+            p tbd
+      .cards
         .card#you
           .card--name
             h2 How about you?
+
 </template>
 
 <style lang="scss" scoped>
