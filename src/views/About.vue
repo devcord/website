@@ -19,6 +19,9 @@ main
           .card--details
             p André is a fullstack developer, based in Germany. His speciality is design and frontend with a strong background in Devops. He loves photography and cats.
             a(href="https://lost.design", title="André Weller's Website").highlighted Website
+            //-a(href="https://github.com/lostdesign", title="André Weller's Website").highlighted Github
+            //-a(href="https://twitter.com/lostdesign", title="André Weller's Website").highlighted Twitter
+            //-a(href="https://instagram.com/lostdesign", title="André Weller's Website").highlighted Instagram
         .card
           .card--meta
             .card--avatar
@@ -48,7 +51,7 @@ main
               h2 Andres Sweeney-Rios
           .card--details
             p Andres is a passionate frontend and game developer located in USA.
-
+            a(href="https://poisonapple.dev", title="Andres Website").highlighted Website
       .cards
         .card
           .card--meta
@@ -63,20 +66,20 @@ main
         .card
           .card--meta
             .card--avatar
-              img(src="https://cdn.discordapp.com/avatars/206857563206189058/65518c51d124a81a157b22afa2723f78.png?size=128")
+              img(src="https://cdn.discordapp.com/avatars/169979689518104576/a_8dca3b19b90c1d625c35b7b439e153b9.png?size=128")
             .card--name
               p.label.label--mod Mod
-              h2 ℚ.
+              h2 James
           .card--details
-            p tbd
+            p As a Belgian fullstack web developer, Jannes mostly enjoys hosting knowledge transfers and exploring new technologies or languages. He can also often be found advocating the functional programming paradigm.
       .cards
         .card
           .card--meta
             .card--avatar
-              img(src="https://cdn.discordapp.com/avatars/169979689518104576/a_8dca3b19b90c1d625c35b7b439e153b9.png?size=128")
+              img(src="https://cdn.discordapp.com/avatars/206857563206189058/65518c51d124a81a157b22afa2723f78.png?size=128")
             .card--name
               p.label.label--mod Mod
-              h2 pvtHenk
+              h2 ℚ.
           .card--details
             p tbd
         .card
