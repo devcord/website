@@ -21,7 +21,11 @@ export default {
 </script>
 
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap");
+
+#app {
+  position: relative;
+}
 
 body {
   margin: 0 auto;
