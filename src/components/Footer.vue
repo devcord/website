@@ -28,6 +28,10 @@ footer {
   justify-content: center;
   align-items: center;
 
+  .cards {
+    flex-flow: column;
+  }
+
   .card {
     &s {
       display: flex;
@@ -40,14 +44,18 @@ footer {
   }
 }
 
-
-
 a {
   color: white;
   font-size: 1rem;
 
   &:hover {
     color: #f0134d;
+  }
+}
+
+@media (min-width: 525px) {
+  footer .cards {
+    flex-flow: row;
   }
 }
 </style>
