@@ -18,7 +18,7 @@ nav
       .hamburger-menu(:class="menuOpen ? 'open' : ''" @click="toggleMenu")
 
   .mobile-nav(:class="menuOpen ? 'open' : ''")
-    .mobile--links
+    .mobile--links(@click="toggleMenu")
       router-link(to="/").mobile-link Home
       router-link(to="/about").mobile-link About
       router-link(to="/partners").mobile-link Partners
@@ -146,18 +146,6 @@ nav {
   }
 }
 
-@media (min-width: 502px) {
-  nav {
-    .nav-link:not(first-child) {
-      display: flex;
-    }
-  }
-
-  .hamburger-wrapper {
-    display: none;
-  }
-}
-
 .hamburger-wrapper {
   width: 30px;
   height: 24px;
@@ -226,7 +214,7 @@ nav {
   background: #111111;
   display: flex;
   justify-content: center;
-  transition: left .5s;
+  transition: left .3s;
   margin: auto;
   position: fixed;
   top: 0;
@@ -272,6 +260,23 @@ nav {
     background: #f1124e;
     font-size: 28px;
     color: #FFFFFF;
+  }
+}
+
+
+@media (min-width: 525px) {
+  nav {
+    .nav-link:not(first-child) {
+      display: flex;
+    }
+  }
+
+  .hamburger-wrapper {
+    display: none;
+  }
+
+  .mobile-nav {
+    transition: none;
   }
 }
 </style>
