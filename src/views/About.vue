@@ -4,7 +4,6 @@ main
     .content
       h1 Who are we?
       p Founded by klatsche in 2016, Devcord started as a small group of developers trying to help each other with daily code issues that may arise.
-      p Official Discord Partner
   section.about
     .content
       h1 Meet the team
@@ -30,7 +29,7 @@ main
               p.label.label--admin Admin
               h2 Jacob Paris
           .card--details
-            p Jacob is a full stack web developer from Canada with a background in enterprise SaaS, React, AWS, and business development.
+            p Jacob is a fullstack web developer from Canada with a background in enterprise SaaS, React, AWS, and business development.
             a(href="https://jacobparis.com", title="Jacob Paris's Website").highlighted Website
       .cards
         .card
@@ -90,7 +89,7 @@ main
               p.label.label--mod Mod
               h2 polarbeer
           .card--details
-            p tbd
+            p polarbeer is a designer and fullstack developer who has been involved in web since the dark ages of HTML 3 and inline CSS. Her interests include UI/UX, psychology, philosophy, fine art, graphic design, analytics, and engineering.
       .cards
         .card#you
           .card--name

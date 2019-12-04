@@ -17,9 +17,12 @@ main
         .card
           h2 Open Source
           p Work on our open-sourced projects together with our community. Learn more about our projects on our Github Team page.
-  section
+  section.discord-partner
     .content
-      h1 more coming soon
+      header
+        img(src="@/assets/discord-partner-logo.svg")
+        h1 Official Discord Partner
+      p We are part of the Partner Program since August 2019.
 </template>
 
 <style lang="scss" scoped>
@@ -99,6 +102,18 @@ section {
   }
 }
 
+.discord-partner {
+  .content {
+    header {
+      display: flex;
+      img {
+        width: 4rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 800px) {
   section {
     .content {
@@ -110,6 +125,13 @@ section {
       .card {
         margin-bottom: 1rem;
         margin-right: 0rem !important;
+      }
+    }
+    &.discord-partner {
+      .content {
+        header {
+          flex-direction: column;
+        }
       }
     }
   }

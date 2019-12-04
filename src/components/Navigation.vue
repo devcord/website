@@ -24,7 +24,7 @@ nav
       router-link(to="/partners").mobile-link Partners
       router-link(to="/projects").mobile-link Projects
       router-link(to="/privacy-policy").mobile-link Privacy Policy
-    a#join-devcord(href="https://discord.gg/devcord", title="Join 5000 others on devcord!").mobile-link  Join us on Discord
+      a#join-devcord(href="https://discord.gg/devcord", title="Join 5000 others on devcord!").mobile-link  Join us on Discord
 </template>
 
 <script>
@@ -248,11 +248,9 @@ nav {
   }
 
   #join-devcord {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
+    margin-top: 2.5rem;
+    margin-left: -20vw;
+    width: 100%;
     text-align: center;
     padding: 0.75rem 0;
     font-size: 22px;
