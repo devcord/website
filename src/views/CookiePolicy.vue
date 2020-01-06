@@ -10,7 +10,7 @@
         h2 What Is A Cookie?
         p Cookies are small text files sent by us to your computer or mobile device, which enables Devcord features and functionality. They are unique to your account or your browser. Session-based cookies last only while your browser is open and are automatically deleted when you close your browser. Persistent cookies last until you or your browser delete them or until they expire.
         p To find out more about cookies, visit&nbsp;
-          a.highlighted(href="https://www.allaboutcookies.org/") this
+          a.highlighted(href="https://www.allaboutcookies.org/", target="_blank") this
           | &nbsp;site.
 
         h2 Does Devcord Use Cookies?
@@ -20,17 +20,17 @@
         p Browser manufacturers provide help pages relating to cookie management in their products. Please see below for more information.
         ul
           li
-            a(href="https://support.google.com/chrome/answer/95647?hl=en-GB", title="Google Chrome") Google Chrome
+            a(href="https://support.google.com/chrome/answer/95647?hl=en-GB", title="Google Chrome", target="_blank") Google Chrome
           li
-            a(href="https://support.apple.com/en-us/guide/safari/manage-cookies-and-website-data-sfri11471/mac", title="Google Chrome") Safari Desktop
+            a(href="https://support.apple.com/en-us/guide/safari/manage-cookies-and-website-data-sfri11471/mac", title="Google Chrome", target="_blank") Safari Desktop
           li
-            a(href="https://support.apple.com/en-us/HT201265", title="Google Chrome") Safari Mobile
+            a(href="https://support.apple.com/en-us/HT201265", title="Google Chrome", target="_blank") Safari Mobile
           li
-            a(href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer", title="Google Chrome") Mozilla Firefox
+            a(href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer", title="Google Chrome", target="_blank") Mozilla Firefox
           li
-            a(href="http://support.google.com/ics/nexus/bin/answer.py?hl=en&answer=2425067", title="Google Chrome") Android
+            a(href="http://support.google.com/ics/nexus/bin/answer.py?hl=en&answer=2425067", title="Google Chrome", target="_blank") Android
           li
-            a(href="https://support.microsoft.com/en-us/kb/260971", title="Google Chrome") Internet Explorer
+            a(href="https://support.microsoft.com/en-us/kb/260971", title="Google Chrome", target="_blank") Internet Explorer
 
         h2 Opt Out From Tracking
         OptOutIframe
