@@ -17,10 +17,10 @@ main
               h2 André Weller
           .card--details
             p André is a fullstack developer, based in Germany. His speciality is design and frontend with a strong background in Devops. He loves photography and cats.
-            a(href="https://lost.design", title="André Weller's Website").highlighted Website
-            //-a(href="https://github.com/lostdesign", title="André Weller's Website").highlighted Github
-            //-a(href="https://twitter.com/lostdesign", title="André Weller's Website").highlighted Twitter
-            //-a(href="https://instagram.com/lostdesign", title="André Weller's Website").highlighted Instagram
+            a(href="https://lost.design", title="André Weller's Website", target="_blank").highlighted Website
+            //-a(href="https://github.com/lostdesign", title="André Weller's Website", target="_blank").highlighted Github
+            //-a(href="https://twitter.com/lostdesign", title="André Weller's Website", target="_blank").highlighted Twitter
+            //-a(href="https://instagram.com/lostdesign", title="André Weller's Website", target="_blank").highlighted Instagram
         .card
           .card--meta
             .card--avatar
@@ -30,7 +30,7 @@ main
               h2 Jacob Paris
           .card--details
             p Jacob is a fullstack web developer from Canada with a background in enterprise SaaS, React, AWS, and business development.
-            a(href="https://jacobparis.com", title="Jacob Paris's Website").highlighted Website
+            a(href="https://jacobparis.com", title="Jacob Paris's Website", target="_blank").highlighted Website
       .cards
         .card
           .card--meta
@@ -50,7 +50,7 @@ main
               h2 Andres Sweeney-Rios
           .card--details
             p Andres is a passionate frontend and game developer located in USA.
-            a(href="https://poisonapple.dev", title="Andres Website").highlighted Website
+            a(href="https://poisonapple.dev", title="Andres Website", target="_blank").highlighted Website
       .cards
         .card
           .card--meta
@@ -61,7 +61,7 @@ main
               h2 Gabe
           .card-details
             p Gabe is a fullstack developer located in Canada. He specializes in vue.js and is studying software engineering. He is also the creator and maintainer of Devcords bot.
-            a(href="https://gabedunn.dev", title="Gabe Dunn's Website").highlighted Website
+            a(href="https://gabedunn.dev", title="Gabe Dunn's Website", target="_blank").highlighted Website
         .card
           .card--meta
             .card--avatar

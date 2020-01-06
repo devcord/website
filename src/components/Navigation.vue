@@ -13,7 +13,7 @@ nav
       router-link(to="/about").nav-link About
       router-link(to="/partners").nav-link Partners
       router-link(to="/projects").nav-link Projects
-    a.join--button(href="https://discord.gg/devcord", title="Join 5000 others on devcord!").nav-link  Join us
+    a.join--button(href="https://discord.gg/devcord", title="Join 5000 others on devcord!", target="_blank").nav-link  Join us
     .hamburger-wrapper(:class="menuOpen ? 'open' : ''")
       .hamburger-menu(:class="menuOpen ? 'open' : ''" @click="toggleMenu")
 

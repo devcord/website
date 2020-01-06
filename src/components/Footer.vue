@@ -9,16 +9,16 @@
           router-link(to="/imprint") Imprint
         .card
           h4 Socials
-          a(href="https://dev.to/devcord", title="Our articles on dev.to") DEV
-          a(href="https://soundcloud.com/devcord", title="Our articles on dev.to") Soundcloud
+          a(href="https://dev.to/devcord", title="Our articles on dev.to", target="_blank") DEV
+          a(href="https://soundcloud.com/devcord", title="Our articles on dev.to", target="_blank") Soundcloud
         .card
           h4 Projects
-          a(href="https://challenges.devcord.com", title="Learn how to dev") Devcord Challenges
-          a(href="https://webgems.io", title="Learn how to dev") Webgems
-          a(href="https://sysgems.io", title="Learn how to dev") Sysgems
+          a(href="https://challenges.devcord.com", title="Learn how to dev", target="_blank") Devcord Challenges
+          a(href="https://webgems.io", title="Learn how to dev", target="_blank") Webgems
+          a(href="https://sysgems.io", title="Learn how to dev", target="_blank") Sysgems
         .card
           h4 Contact
-          a(href="mailto:info@devcord.com", title="Write us an email!") info@devcord.com
+          a(href="mailto:info@devcord.com", title="Write us an email!", target="_top") info@devcord.com
 </template>
 
 <style lang="scss" scoped>

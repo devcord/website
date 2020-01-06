@@ -4,11 +4,11 @@ main
     .content
       h1 Imprint
       p Devcord.com is a project of&nbsp;
-        a.highlighted(href="https://lost.design", title="Visit lost.design") www.lost.design
+        a.highlighted(href="https://lost.design", title="Visit lost.design", target="_blank") www.lost.design
 
       h2 Contact
       p
-        a(href="mailto:info@devcord.com", title="Write Devcord an email") info@devcord.com
+        a(href="mailto:info@devcord.com", title="Write Devcord an email", target="_top") info@devcord.com
 
       h2 Disclaimer
       small Last updated: October 24, 2019

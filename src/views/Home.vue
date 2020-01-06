@@ -4,7 +4,7 @@ main
     .content
       h1 Looking for new friends?
       p Devcord is a community that brings together web developers of all experience levels. Get help with your code, connect with other web developers, discuss your current project and chat about your favourite languages, libraries, and frameworks.
-      a.join--button(href="https://discord.gg/devcord", title="Join 5000 others on devcord!")  Join us on Discord
+      a.join--button(href="https://discord.gg/devcord", title="Join 5000 others on devcord!", target="_blank")  Join us on Discord
   section.background--dark
     .content
       .wrapper
