@@ -47,7 +47,7 @@ main
             .card--avatar
               img(src="https://cdn.discordapp.com/avatars/169979689518104576/a_8dca3b19b90c1d625c35b7b439e153b9.png?size=128")
             .card--name
-              p.label.label--mod Mod
+              p.label.label--mod Admin
               h2 James
           .card--details
             p As a Belgian fullstack web developer, Jannes mostly enjoys hosting knowledge transfers and exploring new technologies or languages. He can also often be found advocating the functional programming paradigm.
@@ -57,7 +57,7 @@ main
             .card--avatar
               img(src="https://cdn.discordapp.com/avatars/206857563206189058/65518c51d124a81a157b22afa2723f78.png?size=128")
             .card--name
-              p.label.label--mod Mod
+              p.label.label--mod Admin
               h2 ℚ.
           .card--details
             p Austin is a computer science student and a freelance developer located in the United States. He works a lot with backend development and data visualization. As well works with teaching children and adults how to swim.
@@ -66,7 +66,7 @@ main
             .card--avatar
               img(src="https://cdn.discordapp.com/avatars/307247078885818368/583570dd3dd28ce61c5b50d58dafc103.png?size=128")
             .card--name
-              p.label.label--mod Mod
+              p.label.label--mod Admin
               h2 polarbeer
           .card--details
             p polarbeer is a designer and fullstack developer who has been involved in web since the dark ages of HTML 3 and inline CSS. Her interests include UI/UX, psychology, philosophy, fine art, graphic design, analytics, and engineering.
