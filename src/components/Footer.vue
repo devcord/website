@@ -6,7 +6,7 @@
           h4 Devcord
           router-link(to="/privacy-policy") Privacy Policy
           router-link(to="/cookie-policy") Cookie Policy
-          router-link(to="/imprint") Imprint
+          router-link(to="/legal") Legal Notice
         .card
           h4 Socials
           a(href="https://github.com/devcord", title="Our open source code", target="_blank") GitHub

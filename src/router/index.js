@@ -49,10 +49,10 @@ const routes = [
     }
   },
   {
-    path: "/imprint",
-    name: "imprint",
+    path: "/legal",
+    name: "legal-notice",
     component: function () {
-      return import( /* webpackChunkName: "about" */ "@/views/Imprint.vue");
+      return import( /* webpackChunkName: "about" */ "@/views/Legal.vue");
     }
   }
 ];

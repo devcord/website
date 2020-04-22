@@ -2,7 +2,7 @@
 main
   section
     .content
-      h1 Imprint
+      h1 Legal Notice
       p Devcord.com is a project of&nbsp;
         a.highlighted(href="https://lost.design", title="Visit lost.design", target="_blank") www.lost.design
 
