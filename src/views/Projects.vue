@@ -4,9 +4,13 @@ main
     .content
       h1 Projects
       h2 devmod
-      p The latest in a series of rewrites for devmod, a bot meant for moderation of discord servers, specifically Devcord.
+      p.
+        devmod is a project started by <router-link to="/about" class="plain">Gabe</router-link> for the devcord
+        community on discord. It was written in typescript as part of devcord's topic of the month for March 2020, in
+        which typescript was the featured topic. The bot is written with modularity, transparency, and ease of use, and
+        was reworked from the ground up in an effort to make the bot more stable.
       p
-        a(href="https://github.com/redxtech/devmod", title="See on Github", target="_blank").highlighted Source
+        a(href="https://github.com/redxtech/devmod-core", title="See on Github", target="_blank").highlighted Source
       h2 Devcord Challenges
       p Want to compete with others and win prices? This platform is being used to submit your challenge submission and to archive previous challenges.
       p
@@ -26,5 +30,13 @@ section {
   justify-content: center;
 
   margin-bottom: 10vh;
+
+  a.plain {
+    color: #f4f4f4;
+
+    &:hover {
+      color: #f0134d;
+    }
+  }
 }
 </style>
