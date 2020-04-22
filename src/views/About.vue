@@ -60,7 +60,7 @@ main
               p.label.label--mod Mod
               h2 ℚ.
           .card--details
-            p tbd
+            p Austin is a computer science student and a freelance developer located in the United States. He works a lot with backend development and data visualization. As well works with teaching children and adults how to swim.
         .card
           .card--meta
             .card--avatar
