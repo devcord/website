@@ -68,6 +68,8 @@ main
               p.label.label--tag ℚ.#7750
           .card--details
             p Austin is a computer science student and a freelance developer located in the United States. He works a lot with backend development and data visualization. As well works with teaching children and adults how to swim.
+            a(href="https://quedev.xyz", title="Austins's Website", target="_blank").highlighted Website
+
         .card
           .card--meta
             .card--avatar
