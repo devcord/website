@@ -79,6 +79,29 @@ main
           .card--details
             p polarbeer is a designer and fullstack developer who has been involved in web since the dark ages of HTML 3 and inline CSS. Her interests include UI/UX, psychology, philosophy, fine art, graphic design, analytics, and engineering.
       .cards
+        .card
+          .card--meta
+            .card--avatar
+              img(src="../assets/staff/devmod.png")
+            .card--name
+              p.label.label--bot Bot
+              h2 devmod
+              p.label.label--tag devmod#0974
+          .card--details
+            p.
+              unless his codebase is being rewritten, devmod is helping us ban (or yeet) people from the server, tracking
+              your reputation, providing useful tags, or assisting with various tasks around the server.
+        .card
+          .card--meta
+            .card--avatar
+              img(src="../assets/staff/goose.png")
+            .card--name
+              p.label.label--bot Bot
+              h2 Goose
+              p.label.label--tag goose#9321
+          .card--details
+            p mess with the honk, you get the bonk
+      .cards
         .card#you
           .card--name
             h2 How about you?
