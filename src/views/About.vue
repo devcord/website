@@ -43,7 +43,9 @@ main
               h2 Gabe
               p.label.label--tag RedXTech#5019
           .card-details
-            p Gabe is a fullstack developer located in Canada. He specializes in vue.js and is studying software engineering. He is also the creator and maintainer of Devcords bot.
+            p Gabe is a fullstack developer located in Canada. He specializes in vue.js and is studying software engineering. He is also the creator and maintainer of devcord's bot:&nbsp;
+              a(href="https://github.com/redxtech/devmod-core", target="_blank").inline devmod
+              | .
             a(href="https://gabedunn.dev", title="Gabe Dunn's Website", target="_blank").highlighted Website
         .card
           .card--meta
@@ -133,6 +135,18 @@ section {
   a {
     display: block;
     font-size: 14px;
+  }
+
+  .card-details {
+    a.inline {
+      color: #f4f4f4;
+      display: inline;
+      font-size: 16px;
+
+      &:hover {
+        color: #f0134d;
+      }
+    }
   }
 
   &--meta {
