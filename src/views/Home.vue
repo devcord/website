@@ -4,13 +4,13 @@ main
     .content
       h1 Looking for new friends?
       p Devcord is a community that brings together web developers of all experience levels. Get help with your code, connect with other web developers, discuss your current project and chat about your favourite languages, libraries, and frameworks.
-      a.join--button(href="https://discord.gg/devcord", title="Join 5000 others on devcord!", target="_blank")  Join us on Discord
+      a.join--button(href="https://discord.gg/devcord", :title="`Join ${userCount} others on devcord!`", target="_blank")  Join us on Discord
   section.background--dark
     .content
       .wrapper
         .card
           h2 Active Community
-          p With over 5000 registered users and an average of 1000 online, we have a very active Discord community with members from all around the globe.
+          p With over {{userCount}} registered users and an average of {{onlineCount}} online, we have a very active Discord community with members from all around the globe.
         .card
           h2 Friendly NPCs
           p Find new friends, talk about web development, side projects, ask for help, talk about gaming, music and other off-topics.
@@ -24,6 +24,17 @@ main
         h1 Official Discord Partner
       p We are part of the Partner Program since August 2019.
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      userCount: 7500,
+      onlineCount: 2000
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 section {

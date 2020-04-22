@@ -3,6 +3,11 @@ main
   section
     .content
       h1 Partners
+      h2 ploi.io
+      p We make deploying a piece of cake. We take all the difficult work out of your hands, so you can focus on doing what you love: developing your application.
+      p
+        a(href="https://ploi.io/", title="Go to plois Website", target="_blank").highlighted ploi
+      br
       h2 Domaincord
       p DomainCord is a community of passionate individuals that love domain names and anything to do with them! We are proud to be the first domain name community to be exclusively on the Discord platform. Join us in order to list domains for sale in our popular marketplace channels and even setup customized landing pages for each of your domains on our website.
       p

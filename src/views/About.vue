@@ -11,7 +11,7 @@ main
         .card
           .card--meta
             .card--avatar
-              img(src="https://cdn.discordapp.com/avatars/126251022002814976/595753cd7f7d427b0d03504e45f01ca8.png?size=128")
+              img(src="https://cdn.discordapp.com/avatars/126251022002814976/0427d645df822d8e466c033fd5639ace.png?size=128")
             .card--name
               p.label.label--owner Owner
               h2 André Weller
@@ -24,27 +24,7 @@ main
         .card
           .card--meta
             .card--avatar
-              img(src="https://cdn.discordapp.com/avatars/231856762750369793/77e9445ef53ed0cb143c46d2d554efb5.png?size=128")
-            .card--name
-              p.label.label--admin Admin
-              h2 Jacob Paris
-          .card--details
-            p Jacob is a fullstack web developer from Canada with a background in enterprise SaaS, React, AWS, and business development.
-            a(href="https://jacobparis.com", title="Jacob Paris's Website", target="_blank").highlighted Website
-      .cards
-        .card
-          .card--meta
-            .card--avatar
-              img(src="https://cdn.discordapp.com/avatars/153591125221834752/08f023e7ef35f745b9cb4ee250a54ad6.png?size=128")
-            .card--name
-              p.label.label--admin Founder
-              h2 klatsche
-          .card--details
-            p tbd
-        .card
-          .card--meta
-            .card--avatar
-              img(src="https://cdn.discordapp.com/avatars/97466512444493824/1637e06a2560942299c6e67d9c01d548.png?size=128")
+              img(src="https://cdn.discordapp.com/avatars/97466512444493824/42acc98a2e976e1df5450184450768cb.png?size=128")
             .card--name
               p.label.label--admin Admin
               h2 Andres Sweeney-Rios

@@ -13,7 +13,7 @@ nav
       router-link(to="/about").nav-link About
       router-link(to="/partners").nav-link Partners
       router-link(to="/projects").nav-link Projects
-    a.join--button(href="https://discord.gg/devcord", title="Join 5000 others on devcord!", target="_blank").nav-link  Join us
+    a.join--button(href="https://discord.gg/devcord", :title="`Join ${userCount} others on devcord!`", target="_blank").nav-link  Join us
     .hamburger-wrapper(:class="menuOpen ? 'open' : ''")
       .hamburger-menu(:class="menuOpen ? 'open' : ''" @click="toggleMenu")
 
@@ -24,14 +24,15 @@ nav
       router-link(to="/partners").mobile-link Partners
       router-link(to="/projects").mobile-link Projects
       router-link(to="/privacy-policy").mobile-link Privacy Policy
-      a#join-devcord(href="https://discord.gg/devcord", title="Join 5000 others on devcord!").mobile-link  Join us on Discord
+      a#join-devcord(href="https://discord.gg/devcord", :title="`Join ${userCount} others on devcord!`").mobile-link  Join us on Discord
 </template>
 
 <script>
 export default {
   data () {
     return {
-      menuOpen: false
+      menuOpen: false,
+      userCount: 7500,
     }
   },
 
