@@ -7,10 +7,12 @@
           router-link(to="/legal") Legal Notice
         .card
           h4 Socials
+          a(href="https://github.com/devcord", title="Our open source code", target="_blank") GitHub
           a(href="https://dev.to/devcord", title="Our articles on dev.to", target="_blank") DEV
           a(href="https://soundcloud.com/devcord", title="Our articles on dev.to", target="_blank") Soundcloud
         .card
           h4 Projects
+          a(href="https://github.com/redxtech/devmod-core", title="Our Bot", target="_blank") devmod
           a(href="https://challenges.devcord.com", title="Learn how to dev", target="_blank") Devcord Challenges
           a(href="https://webgems.io", title="Learn how to dev", target="_blank") Webgems
           a(href="https://sysgems.io", title="Learn how to dev", target="_blank") Sysgems
