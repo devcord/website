@@ -1,20 +1,17 @@
 <template lang="pug">
   #app
     Navigation
-    Cookie
     router-view
     Footer
 </template>
 
 <script>
 import Navigation from '@/components/Navigation.vue';
-import Cookie from '@/components/Cookie.vue';
 import Footer from '@/components/Footer.vue';
 
 export default {
   components: {
     Navigation,
-    Cookie,
     Footer
   }
 };
