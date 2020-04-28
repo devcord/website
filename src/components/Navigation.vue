@@ -23,7 +23,6 @@ nav
       router-link(to="/about").mobile-link About
       router-link(to="/partners").mobile-link Partners
       router-link(to="/projects").mobile-link Projects
-      router-link(to="/privacy-policy").mobile-link Privacy Policy
       a#join-devcord(href="https://discord.gg/devcord", :title="`Join ${userCount} others on devcord!`").mobile-link  Join us on Discord
 </template>
 

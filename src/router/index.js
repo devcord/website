@@ -35,20 +35,6 @@ const routes = [
     }
   },
   {
-    path: "/privacy-policy",
-    name: "privacy-policy",
-    component: function () {
-      return import( /* webpackChunkName: "about" */ "@/views/PrivacyPolicy.vue");
-    }
-  },
-  {
-    path: "/cookie-policy",
-    name: "cookie-policy",
-    component: function () {
-      return import( /* webpackChunkName: "about" */ "@/views/CookiePolicy.vue");
-    }
-  },
-  {
     path: "/legal",
     name: "legal-notice",
     component: function () {

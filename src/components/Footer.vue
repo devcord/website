@@ -4,8 +4,6 @@
       .cards
         .card
           h4 Devcord
-          router-link(to="/privacy-policy") Privacy Policy
-          router-link(to="/cookie-policy") Cookie Policy
           router-link(to="/legal") Legal Notice
         .card
           h4 Socials
