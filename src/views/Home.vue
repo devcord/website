@@ -10,7 +10,7 @@ main
       .wrapper
         .card
           h2 Active Community
-          p With over {{userCount}} registered users and an average of {{onlineCount}} online, we have a very active Discord community with members from all around the globe.
+          p With over {{userCount}} registered users from all around the globe, we have a very active Discord community.
         .card
           h2 Friendly NPCs
           p Find new friends, talk about web development, side projects, ask for help, talk about gaming, music and other off-topics.
@@ -29,8 +29,7 @@ main
 export default {
   data () {
     return {
-      userCount: 7500,
-      onlineCount: 2000
+      userCount: 12000
     }
   }
 }

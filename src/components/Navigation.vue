@@ -31,7 +31,7 @@ export default {
   data () {
     return {
       menuOpen: false,
-      userCount: 7500,
+      userCount: 12000,
     }
   },
 

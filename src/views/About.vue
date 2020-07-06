@@ -3,7 +3,7 @@ main
   section
     .content
       h1 Who are we?
-      p Founded by klatsche in 2016, Devcord started as a small group of developers trying to help each other with daily code issues that may arise.
+      p Founded in 2016, Devcord started as a small group of developers trying to help each other with daily code issues that may arise.
   section.about
     .content
       h1 Meet the team
@@ -14,26 +14,11 @@ main
               img(src="../assets/staff/lost.png")
             .card--name
               p.label.label--owner Owner
-              h2 André Weller
+              h2 lost
               p.label.label--tag lost#0001
           .card--details
-            p André is a fullstack developer, based in Germany. His speciality is design and frontend with a strong background in Devops. He loves photography and cats.
-            a(href="https://lost.design", title="André Weller's Website", target="_blank").highlighted Website
-            //-a(href="https://github.com/lostdesign", title="André Weller's Website", target="_blank").highlighted Github
-            //-a(href="https://twitter.com/lostdesign", title="André Weller's Website", target="_blank").highlighted Twitter
-            //-a(href="https://instagram.com/lostdesign", title="André Weller's Website", target="_blank").highlighted Instagram
-        .card
-          .card--meta
-            .card--avatar
-              img(src="../assets/staff/poisonapple.png")
-            .card--name
-              p.label.label--admin Admin
-              h2 Andres Sweeney-Rios
-              p.label.label--tag Poison Apple#9351
-          .card--details
-            p Andres is a passionate frontend and game developer located in USA.
-            a(href="https://poisonapple.dev", title="Andres Website", target="_blank").highlighted Website
-      .cards
+            p lost is a fullstack developer, based in Germany. His speciality is design and frontend with a strong background in Devops. He loves photography and cats.
+            a(href="https://lost.design", title="lost's Website", target="_blank").highlighted Website
         .card
           .card--meta
             .card--avatar
@@ -47,6 +32,7 @@ main
               a(href="https://github.com/redxtech/devmod-core", target="_blank").inline devmod
               | .
             a(href="https://gabedunn.dev", title="Gabe Dunn's Website", target="_blank").highlighted Website
+      .cards
         .card
           .card--meta
             .card--avatar
@@ -57,7 +43,6 @@ main
               p.label.label--tag pvtHenk#1337
           .card--details
             p As a Belgian fullstack web developer, Jannes mostly enjoys hosting knowledge transfers and exploring new technologies or languages. He can also often be found advocating the functional programming paradigm.
-      .cards
         .card
           .card--meta
             .card--avatar
@@ -69,7 +54,7 @@ main
           .card--details
             p Austin is a computer science student and a freelance developer located in the United States. He works a lot with backend development and data visualization. As well works with teaching children and adults how to swim.
             a(href="https://quedev.xyz", title="Austins's Website", target="_blank").highlighted Website
-
+      .cards
         .card
           .card--meta
             .card--avatar
