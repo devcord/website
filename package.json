@@ -9,11 +9,10 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "pug": "^2.0.4",
+    "pug": "^3.0.0",
     "pug-plain-loader": "^1.0.0",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
-    "vue-matomo": "^3.12.0",
     "vue-router": "^3.3.4",
     "vuex": "^3.5.1"
   },
@@ -25,7 +24,7 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/test-utils": "1.0.3",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
+    "eslint": "^7.4.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue": "^6.2.2",
     "prettier": "^2.0.5",
