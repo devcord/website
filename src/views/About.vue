@@ -69,7 +69,7 @@ main
         .card
           .card--meta
             .card--avatar
-              img(src="../assets/staff/waffeln.png")
+              img(src="../assets/staff/waffeln.jpg")
             .card--name
               p.label.label--mod Admin
               h2 Roman
