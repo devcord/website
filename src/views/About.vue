@@ -39,7 +39,7 @@ main
               img(src="../assets/staff/pvthenk.png")
             .card--name
               p.label.label--mod Admin
-              h2 James
+              h2 Jannes
               p.label.label--tag pvtHenk#1337
           .card--details
             p As a Belgian fullstack web developer, Jannes mostly enjoys hosting knowledge transfers and exploring new technologies or languages. He can also often be found advocating the functional programming paradigm.
@@ -65,6 +65,16 @@ main
               p.label.label--tag polarbeer#0001
           .card--details
             p polarbeer is a designer and fullstack developer who has been involved in web since the dark ages of HTML 3 and inline CSS. Her interests include UI/UX, psychology, philosophy, fine art, graphic design, analytics, and engineering.
+        .card
+          .card--meta
+            .card--avatar
+              img(src="../assets/staff/waffeln.jpg")
+            .card--name
+              p.label.label--mod Admin
+              h2 Roman
+              p.label.label--tag waffeln#5603
+          .card--details
+            p Roman is a fullstack developer and a DJ and since he enjoys dark and stressful Drum & Bass, naturally, he's into JavaScript. In his day job he also works a lot with PHP, SQL and other related technologies.
       .cards
         .card
           .card--meta
