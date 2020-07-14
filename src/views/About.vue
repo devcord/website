@@ -65,7 +65,6 @@ main
               p.label.label--tag polarbeer#0001
           .card--details
             p polarbeer is a designer and fullstack developer who has been involved in web since the dark ages of HTML 3 and inline CSS. Her interests include UI/UX, psychology, philosophy, fine art, graphic design, analytics, and engineering.
-      .cards
         .card
           .card--meta
             .card--avatar
