@@ -13,7 +13,7 @@
     "pug-plain-loader": "^1.0.0",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
-    "vue-router": "^3.4.0",
+    "vue-router": "^3.4.2",
     "vuex": "^3.5.1"
   },
   "devDependencies": {
