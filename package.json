@@ -1,0 +1,50 @@
+{
+  "name": "devcord-website",
+  "version": "0.1.0",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "marked": "^1.1.1",
+    "prismjs": "^1.21.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.4.3",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "cross-env": "^7.0.2",
+    "css-loader": "^4.2.1",
+    "eslint": "^7.5.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "pug": "^3.0.0",
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.0.0",
+    "raw-loader": "^4.0.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "vue-eslint-parser": "^7.1.0",
+    "vue-loader": "^15.9.3",
+    "vue-svg-loader": "^0.16.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devcord/website.git"
+  },
+  "keywords": [
+    "devcord"
+  ],
+  "author": "Andres Sweeney-Rios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devcord/website/issues"
+  },
+  "homepage": "https://github.com/devcord/website#readme"
+}
