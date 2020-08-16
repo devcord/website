@@ -3,7 +3,7 @@
 </template>
 
 <script>
-  import { parse as Marked } from 'marked'
+  import Marked from 'marked'
 
   import { 
     languages,
@@ -16,6 +16,8 @@
         ? highlight(string, languages[language])
         : string
     },
+
+    gfm: true,
   })
 
   export default {
@@ -25,17 +27,71 @@
   }
 </script>
 
-<style lang="sass" scoped>
-  @import '~css/prism.css'
-</style>
+<style lang="scss">
+  .markdown{
+    width: 100%;
+    color: rgba(white, 0.8);
+    line-height: 25px;
 
-<style lang="sass">
-  .markdown
-    width: 100%
+    ul, p {
+      letter-spacing: 0.25px;
+    }
 
-  .markdown pre
-    background-color: var(--input-background)
+    h1, h2 {
+      margin-bottom: 20px;
+
+      &:not(:first-child) {
+        margin-top: 75px;
+      }
+
+      border-bottom: 1px solid rgba(white, 0.1);
+      padding-bottom: 15px;
+    }
+
+    h3, h4 {
+      margin-bottom: 10px;
+
+      &:not(:first-child) {
+        margin-top: 30px;
+      }
+    }
+
+    h1, h2, h3, h4 {
+      color: white;
+    }
     
-    *
-      font-family: 'Fira Code'
+    li {
+      list-style: none;
+
+      &::before {
+        content: '';
+        background-color: rgba(white, 0.8);
+        border-radius: 50%;
+        width: 4px;
+        height: 4px;
+        margin-right: 7px;
+        margin-bottom: 3.5px;
+        display: inline-block;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 3px;
+      }
+    }
+
+    pre {
+      background-color: rgb(10, 10, 10);
+      padding: 10px;
+      font-size: 14px;
+      border-radius: 5px;
+
+      * {
+        font-family: 'Fira Code';
+      }
+    }
+
+    p + pre, pre + p {
+      margin-top: 10px;
+    }
+  }
 </style>

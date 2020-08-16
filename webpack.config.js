@@ -69,6 +69,10 @@ module.exports = () => ({
         ],
       },
       {
+        test: /\.(md)$/,
+        use: 'raw-loader',
+      },
+      {
         test: /\.vue$/,
         loader: 'vue-loader',
       },
@@ -82,6 +86,7 @@ module.exports = () => ({
   resolve: {
     alias: {
       '@': path.join(__dirname, 'src'),
+      'resources': path.join(__dirname, 'resources'),
       '~assets': path.join(__dirname, 'src', 'assets'),
       '~mixins': path.join(__dirname, 'src', 'scss', 'mixins'),
     },

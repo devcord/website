@@ -1,12 +1,15 @@
 <template lang="pug">
   nav( :hasScrolled="hasScrolled" )
     .background
-    Logo
-    router-link( to="#" ) Projects
-    span •
-    router-link( to="#" ) Rules
-    span •
-    router-link( to="#" ) Bot
+
+    router-link.logo( to="/" )
+      Logo
+
+    //- router-link( to="#" ) Projects
+    //- span •
+    router-link( to="/rules" ) Rules
+    //- span •
+    router-link( to="#" ) Bots
 </template>
 
 <script>
@@ -60,6 +63,7 @@
       opacity: 0;
       transition: opacity 0.1s;
       background-color: var(--background);
+      box-shadow: 0 0 40px 10px rgba(black, 1);
     }
 
     &[hasScrolled] {
@@ -67,7 +71,7 @@
       -webkit-backdrop-filter: blur(10px);
       
       .background {
-        opacity: 0.3;
+        opacity: 0.5;
       }
     }
 
@@ -75,13 +79,22 @@
       position: relative;
     }
 
-    svg {
+    .logo {
       fill: white;
       margin-right: auto;
+      display: flex;
+
+      svg {
+        height: 30px;
+      }
     }
 
-    a, span {
-      margin-left: 15px;
+    a:not(.logo), span {
+      margin-left: 30px;
+    }
+
+    span {
+      opacity: 0.8;
     }
   }
 </style>

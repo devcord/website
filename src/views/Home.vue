@@ -16,20 +16,20 @@
         | Join us on Discord
 
       .social
-        a.youtube( href="#" title="YouTube" )
+        a.youtube( href="https://www.youtube.com/channel/UC3NK6zA3HhtTclLZZvdHX-A" title="YouTube" )
           Icon youtube
 
-        a.github( href="#" title="GitHub" )
+        a.github( href="https://github.com/devcord/" title="GitHub" )
           Icon github
 
-        a.dev( href="#" title="Dev.to" )
+        a.dev( href="https://dev.to/devcord" title="Dev.to" )
           Icon dev.to
 
-        a.soundcloud( href="#" title="SoundCloud" )
+        a.soundcloud( href="https://soundcloud.com/devcord" title="SoundCloud" )
           Icon soundcloud
 
-        a.twitch( href="#" title="Twitch" )
-          Icon twitch
+        //- a.twitch( href="#" title="Twitch" )
+        //-   Icon twitch
 
     .cards
       .card
@@ -109,6 +109,7 @@
       background-size: cover;
       background-position: center top;
       opacity: 0.4;
+      background-attachment: fixed;
     }
 
     .shadow {

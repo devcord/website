@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '@/views/Home'
+import Rules from '@/views/Rules'
 
 Vue.use(VueRouter)
 
@@ -10,6 +11,12 @@ const routes = [
     name: 'Home',
     component: Home,
   },
+
+  {
+    path: '/rules',
+    name: 'Rules',
+    component: Rules,
+  }
 ]
 
 const router = new VueRouter({
