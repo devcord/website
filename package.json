@@ -32,7 +32,8 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "lint": "eslint --fix"
   },
   "repository": {
     "type": "git",

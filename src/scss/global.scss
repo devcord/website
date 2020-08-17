@@ -11,6 +11,18 @@ html {
   background-color: var(--background);
   color: var(--text);
   fill: var(--text);
+
+  scrollbar-width: thin;
+  scrollbar-color: white var(--background);
+}
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  background-color: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+  background: white;
 }
 
 a {

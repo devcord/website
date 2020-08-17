@@ -69,6 +69,10 @@ module.exports = () => ({
         ],
       },
       {
+        test: /\.(md)$/,
+        use: 'raw-loader',
+      },
+      {
         test: /\.vue$/,
         loader: 'vue-loader',
       },
@@ -82,6 +86,8 @@ module.exports = () => ({
   resolve: {
     alias: {
       '@': path.join(__dirname, 'src'),
+      'resources': path.join(__dirname, 'resources'),
+      'config': path.join(__dirname, 'config.js'),
       '~assets': path.join(__dirname, 'src', 'assets'),
       '~mixins': path.join(__dirname, 'src', 'scss', 'mixins'),
     },
@@ -100,6 +106,16 @@ module.exports = () => ({
 
   devServer: {
     port: config.port,
+    // proxy: {
+    //   '/api': 'http://localhost:44444'
+    // },
+    
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+      "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization"
+    },
+    
     historyApiFallback: true,
   },
 })
