@@ -71,7 +71,7 @@
       -webkit-backdrop-filter: blur(10px);
       
       .background {
-        opacity: 0.5;
+        opacity: 0.8;
       }
     }
 
