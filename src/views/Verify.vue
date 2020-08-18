@@ -5,7 +5,7 @@
       h2 You've been successfully verified!
       h4 You may now close this window.
 
-    .confirm( v-else )
+    .confirm( v-else v-show="loaded" )
       h1 Read carefully and confirm below.
       Rules
 
@@ -13,7 +13,7 @@
         input( id="confirm-input" type="checkbox" v-model="agree" )
         label( for="confirm-input") I have read and agree to follow Devcord's rules
 
-      button( :disabled="!agree" @click="verify" ) 
+      button( :disabled="!agree" @click="verify().catch(catch401)" ) 
         Icon check-square
         | Verify
 </template>
@@ -111,6 +111,7 @@
 
     data () {
       return {
+        loaded: false,
         verified: false,
         agree: false,
       }
@@ -118,28 +119,41 @@
 
     methods: {
       async verify () {
-        try {
-          const { data: {
-            memberExists
-          } } = await api.get('/discord/verify')
+        const { data: {
+          memberExists
+        } } = await api.get('/discord/verify')
 
-          if (!memberExists) return this.$router.replace('/')
-          
-          this.verified = true
-        } catch (error) {
-          switch (error.response.status) {
-            case 401:
-              this.$router.replace('/login')
-              break
-            
-            default:
-              console.error(error)
-          }
-        }
+        if (!memberExists) return this.$router.replace('/')
+        
+        this.verified = true
       },
+
+      async checkStatus () {
+        const { data: {
+          memberExists,
+          hasVerifiedRole,
+        } } = await api.get('/discord/verification-status')
+
+        if (!memberExists) this.$router.replace('/')
+        else if (hasVerifiedRole) this.verified = true
+
+        this.loaded = true
+      },
+
+      async catch401 (error) {
+        switch (error.response.status) {
+          case 401:
+            this.$router.replace('/login')
+            break
+          
+          default:
+            console.error(error)
+        }
+      }
     },
     
     mounted () {
+      this.checkStatus().catch(this.catch401)
     }  
   }
 </script>

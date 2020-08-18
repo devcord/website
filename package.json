@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "dependencies": {
     "axios": "^0.19.2",
+    "express": "^4.17.1",
     "marked": "^1.1.1",
     "prismjs": "^1.21.0",
     "vue": "^2.6.11",

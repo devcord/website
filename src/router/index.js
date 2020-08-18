@@ -28,6 +28,12 @@ const routes = [
   },
 
   {
+    path: '/logout',
+    name: 'Logout',
+    component: () => import('@/views/Logout'),
+  },
+
+  {
     path: '/process-code',
     name: 'ProcessCode',
     component: () => import('@/views/ProcessCode'),
@@ -42,6 +48,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
+  base: '/',
   routes,
 })
 

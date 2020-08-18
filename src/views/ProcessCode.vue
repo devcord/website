@@ -39,7 +39,7 @@
         } else if (!hasVerifiedRole) {
           this.$router.replace('/verify')
         } else {
-          this.$router.replace('/bot')
+          this.$router.replace('/verify')
         }
       },
     },
