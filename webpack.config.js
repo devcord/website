@@ -89,7 +89,7 @@ module.exports = () => ({
   output: {
     path: path.join(__dirname, 'dist'),
     filename: "[name].bundle.js",
-    chunkFilename: '[name].bundle.js',
+    chunkFilename: '[name].[chunkhash].js',
   },
 
   mode: process.env.NODE_ENV || 'production',
