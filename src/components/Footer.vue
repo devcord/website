@@ -4,7 +4,7 @@
       h4 Devcord
       ul
         li
-          router-link( to="/legal" ) Legal Notice
+          a( href="https://lost.design/legal-notice" ) Legal Notice
 
     .group
       h4 Socials

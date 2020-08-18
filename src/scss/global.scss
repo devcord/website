@@ -33,7 +33,7 @@ a {
   // transition: color 0.075s, border-color 0.075s;
   // border-bottom: 2px solid transparent;
 
-  &:hover, &:focus {
+  &:hover {
     color: var(--accent);
     // border-color: var(--accent);
     text-decoration: underline;

@@ -13,6 +13,13 @@
     components: {
       Navigation,
       Footer,
+    },
+
+    watch: {
+      '$route' () {
+        scrollTo(0, 0)
+        document.body.focus()
+      }
     }
   }
 </script>
