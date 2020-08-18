@@ -18,25 +18,25 @@ const routes = [
   {
     path: '/rules',
     name: 'Rules',
-    component: () => import(/* webpackChunkName: "rules" */ '@/views/Rules'),
+    component: () => import('@/views/Rules'),
   },
 
   {
     path: '/login',
     name: 'Login',
-    component: () => import(/* webpackChunkName: "login" */ '@/views/Login'),
+    component: () => import('@/views/Login'),
   },
 
   {
     path: '/process-code',
     name: 'ProcessCode',
-    component: () => import(/* webpackChunkName: "process-code" */ '@/views/ProcessCode'),
+    component: () => import('@/views/ProcessCode'),
   },
 
   {
     path: '/verify',
     name: 'Verify',
-    component: () => import(/* webpackChunkName: "verify" */ '@/views/Verify'),
+    component: () => import('@/views/Verify'),
   },
 ]
 
