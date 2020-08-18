@@ -44,6 +44,12 @@ const routes = [
     name: 'Verify',
     component: () => import('@/views/Verify'),
   },
+
+  {
+    path: '/legal',
+    name: 'Legal',
+    component: () => import('@/views/Legal'),
+  },
 ]
 
 const router = new VueRouter({

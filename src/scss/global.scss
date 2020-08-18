@@ -10,8 +10,8 @@
 
 html {
   background-color: var(--background);
-  color: var(--text);
-  fill: var(--text);
+  color: white;
+  fill: white;
 
   scrollbar-width: thin;
   scrollbar-color: white var(--background);
@@ -27,12 +27,17 @@ html {
 }
 
 a {
-  color: var(--text);
+  color: white;
   text-decoration: none;
   font-weight: bold;
+  // transition: color 0.075s, border-color 0.075s;
+  // border-bottom: 2px solid transparent;
 
-  &:hover {
+  &:hover, &:focus {
+    color: var(--accent);
+    // border-color: var(--accent);
     text-decoration: underline;
+    // outline: none;
   }
 }
 

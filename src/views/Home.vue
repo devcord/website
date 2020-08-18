@@ -33,15 +33,21 @@
 
     .cards
       .card
-        h2 Active Community
+        h2 
+          Icon message-circle
+          | Active Community
         p With over 12000 registered users from all around the globe, we have a very active Discord community.
 
       .card
-        h2 Friendly NPCs
+        h2 
+          Icon user
+          | Friendly NPCs
         p Find new friends, talk about web development, side projects, ask for help, talk about gaming, music and other off-topics.
 
       .card
-        h2 Open Source
+        h2 
+          Icon github-feather
+          | Open Source
         p Work on our open-sourced projects together with our community. Learn more about our projects on our GitHub Team page.
 </template>
 
@@ -93,17 +99,17 @@
     background-color: #130E10;
     min-height: 690px;
 
-    @include md {
+    @include lg {
       padding: 150px 60px;
-      }
+    }
 
-      .background, .shadow {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
+    .background, .shadow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
 
     .background {
       background: url(~assets/matte.webp);
@@ -181,24 +187,32 @@
 
     h2 {
       margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+
+      svg {
+        height: 22px;
+        margin-right: 10px;
+      }
+    }
+
+    @include lg {
+      padding: 60px;
+    }
+
+    @include md {
+      flex-direction: column;
+
+      .card {
+        width: 100%;
+        margin-bottom: 90px;
+      }
     }
 
     @include sm {
       margin-bottom: 7px;
     }
-
-    @include md {
-      padding: 60px;
-    }
-
-    @include lg {
-      flex-direction: column;
-
-      .card {
-        width: 100%;
-        margin-bottom: 120px;
-      }
-    }
+    
   }
 </style>
 
