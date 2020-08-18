@@ -92,9 +92,9 @@ module.exports = () => ({
     chunkFilename: '[name].bundle.js',
   },
 
-  mode: process.env.NODE_ENV,
+  mode: process.env.NODE_ENV || 'production',
 
-  devtool: process.env.NODE_ENV === 'production' ? 'none' : 'source-map',
+  devtool: process.env.NODE_ENV === 'development' ? 'source-map' : 'none',
 
   devServer: {
     host: '0.0.0.0',
