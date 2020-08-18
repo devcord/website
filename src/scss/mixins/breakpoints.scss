@@ -1,23 +1,23 @@
 @mixin sm {
-  @media (max-width: 500px) {
-      @content;
+  @media (max-width: 550px) {
+    @content;
   }
 }
 
 @mixin md {
   @media (max-width: 1000px) {
-      @content;
+    @content;
   }
 }
 
 @mixin lg {
   @media (max-width: 1400px) {
-      @content;
+    @content;
   }
 }
 
 @mixin xl {
   @media (min-width: 1400px) {
-      @content;
+    @content;
   }
 }

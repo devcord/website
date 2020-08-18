@@ -9,7 +9,7 @@
     //- span •
     router-link( to="/rules" ) Rules
     //- span •
-    router-link( to="#" ) Bots
+    //- router-link( to="#" ) Bots
 </template>
 
 <script>

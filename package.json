@@ -33,6 +33,7 @@
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "webpack --production",
     "lint": "eslint --fix"
   },
   "repository": {

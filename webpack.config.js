@@ -105,6 +105,8 @@ module.exports = () => ({
   devtool: process.env.NODE_ENV === 'production' ? 'none' : 'source-map',
 
   devServer: {
+    host: '0.0.0.0',
+
     port: config.port,
     // proxy: {
     //   '/api': 'http://localhost:44444'

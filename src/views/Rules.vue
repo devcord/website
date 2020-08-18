@@ -1,21 +1,14 @@
 <template lang="pug">
   main
-    Markdown {{ rules }}
+    Rules
 </template>
 
 <script>
-  import Markdown from '@/components/Markdown'
-  import rules from 'resources/rules.md'
+  import Rules from '@/components/Rules'
 
   export default {
     components: {
-      Markdown,
-    },
-
-    data () {
-      return {
-        rules,
-      }
+      Rules,
     },
   }
 </script>
@@ -30,6 +23,10 @@
 
     @include md {
       padding: 90px;
+    }
+
+    @include sm {
+      padding: 90px 30px;
     }
   }
 </style>

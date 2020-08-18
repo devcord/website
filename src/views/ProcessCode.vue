@@ -27,11 +27,20 @@
 
     methods: {
       async processCode (code) {
-        const { data: user } = await api.get('/discord/process-code?code=' + code) 
+        const { data: {
+          memberExists,
+          hasVerifiedRole,
+        } } = await api.get('/discord/process-code?code=' + code) 
         
-        console.log(user)
+        console.log({ memberExists, hasVerifiedRole })
 
-        // this.$router.replace('/verify')
+        if (!memberExists) {
+          this.$router.replace('/')
+        } else if (!hasVerifiedRole) {
+          this.$router.replace('/verify')
+        } else {
+          this.$router.replace('/bot')
+        }
       },
     },
     

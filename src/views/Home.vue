@@ -11,7 +11,7 @@
         | Get help with your code, connect with other web developers, discuss your current 
         | project and chat about your favourite languages, libraries, and frameworks.
 
-      router-link.join( to="https://discord.gg/devcord" )
+      a.join.button( href="https://discord.gg/devcord" )
         Icon discord
         | Join us on Discord
 
@@ -70,7 +70,8 @@
 
   @include sm {
     p {
-      font-size: 14px;
+      font-size: 16px;
+      line-height: 22px;
     }
 
     h1 {
@@ -126,18 +127,16 @@
     
     a.join {
       margin-top: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 5px;
       background-color: #7289DA;
-      padding: 10px;
-      font-size: 16px;
+      color: white;
 
-      svg {
-        height: 20px;
-        width: auto;
-        margin-right: 10px;
+      &:focus, &:hover {
+        background-color: white;
+        color: var(--background);
+
+        svg {
+          fill: var(--background);
+        }
       }
     }
 
