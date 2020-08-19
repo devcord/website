@@ -5,6 +5,8 @@
       ul
         li
           a( href="https://lost.design/legal-notice" ) Legal Notice
+        li
+          a( href="https://github.com/devcord/devcord-logo" ) Branding
 
     .group
       h4 Socials
