@@ -9,6 +9,7 @@
 - Don't try to intimidate or harass people.
 - Use common sense. If you think you'll get a warning for it, don't do it.
 - Don't interrupt active conversations looking for help. People are trying to relax and may not want to answer your questions if they're not relevant to the discussion.
+- Don't DM moderators directly, message **@modmail#3370** instead.
 
 <br>
 
