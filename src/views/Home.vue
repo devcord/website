@@ -15,6 +15,10 @@
         Icon discord
         | Join us on Discord
 
+      p.partner
+        Icon discord-partner
+        | Official Partner
+
       .social
         a.youtube( href="https://www.youtube.com/channel/UC3NK6zA3HhtTclLZZvdHX-A" title="YouTube" )
           Icon youtube
@@ -133,6 +137,7 @@
 
         small {
           opacity: 0.6;
+          // font-weight: bold;
         }
       }
 
@@ -201,6 +206,7 @@
       margin-top: 20px;
       background-color: #7289DA;
       color: white;
+      margin-bottom: 5px;
 
       &:focus, &:hover {
         background-color: white;
@@ -209,6 +215,22 @@
         svg {
           fill: var(--background);
         }
+      }
+    }
+
+    .partner {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: white;
+      opacity: 0.7;
+      letter-spacing: 0.25px;
+
+      svg {
+        height: 14px;
+        fill: white;
+        margin-right: 5px;
       }
     }
 
