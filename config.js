@@ -11,9 +11,9 @@ module.exports = {
 
   meta: {
     title: 'devcord',
-    description: 'a cool website.',
-    thumbnail: '',
-    themeColor: '',//'#EB7A96',
+    description: 'Devcord is a community that brings together web developers of all experience levels. Get help with your code, connect with other web developers, discuss your current project and chat about your favourite languages, libraries, and frameworks.',
+    thumbnail: '/img/animated-logo-optimized-resized.gif',
+    themeColor: '#f0134d',
     url: 'https://devcord.com'
   },
 
