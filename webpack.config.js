@@ -39,15 +39,7 @@ module.exports = () => ({
       },
       {
         test: /\.css$/i,
-        use: [
-          'style-loader',
-          {
-            loader: 'css-loader',
-            options: {
-              modules: true
-            },
-          },
-        ],
+        use: 'css-loader',
       },
       {
         test: /\.scss$/i,
@@ -69,6 +61,10 @@ module.exports = () => ({
         ],
       },
       {
+        test: /\.(md)$/,
+        use: 'raw-loader',
+      },
+      {
         test: /\.vue$/,
         loader: 'vue-loader',
       },
@@ -82,6 +78,8 @@ module.exports = () => ({
   resolve: {
     alias: {
       '@': path.join(__dirname, 'src'),
+      'resources': path.join(__dirname, 'resources'),
+      'config': path.join(__dirname, 'config.js'),
       '~assets': path.join(__dirname, 'src', 'assets'),
       '~mixins': path.join(__dirname, 'src', 'scss', 'mixins'),
     },
@@ -94,12 +92,24 @@ module.exports = () => ({
     chunkFilename: '[name].bundle.js',
   },
 
-  mode: process.env.NODE_ENV,
+  mode: process.env.NODE_ENV || 'production',
 
-  devtool: process.env.NODE_ENV === 'production' ? 'none' : 'source-map',
+  devtool: process.env.NODE_ENV === 'development' ? 'source-map' : 'none',
 
   devServer: {
+    host: '0.0.0.0',
+
     port: config.port,
+    // proxy: {
+    //   '/api': 'http://localhost:44444'
+    // },
+    
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+      "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization"
+    },
+    
     historyApiFallback: true,
   },
 })

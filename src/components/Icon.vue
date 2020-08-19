@@ -1,3 +1,3 @@
 <template lang="pug">
-  component( :is="require(`@/assets/icons/${ this.$slots.default[0].text }.svg`)" )
+  component( :is="require(`@/assets/icons/${ this.$slots.default[0].text }.svg`)" aria-hidden="true" )
 </template>

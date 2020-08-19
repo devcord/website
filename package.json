@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "dependencies": {
     "axios": "^0.19.2",
+    "express": "^4.17.1",
     "marked": "^1.1.1",
     "prismjs": "^1.21.0",
     "vue": "^2.6.11",
     "vue-router": "^3.4.3",
+    "vue-template-compiler": "^2.6.11",
     "vuex": "^3.5.1"
   },
   "devDependencies": {
@@ -32,7 +34,9 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "webpack --production",
+    "lint": "eslint --fix"
   },
   "repository": {
     "type": "git",
