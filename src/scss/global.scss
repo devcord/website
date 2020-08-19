@@ -30,16 +30,28 @@ a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  // transition: color 0.075s, border-color 0.075s;
+  transition: color 0.075s, border-color 0.075s;
   // border-bottom: 2px solid transparent;
+
+  svg {
+    transition: fill 0.075s;
+  }
 
   &:hover {
     color: var(--accent);
     // border-color: var(--accent);
-    text-decoration: underline;
+    // text-decoration: underline;
     // outline: none;
+
+    svg {
+      fill: var(--accent);
+    }
   }
 }
+
+// .router-link-active:not(*[href="/"]) {
+//   pointer-events: none;
+// }
 
 button, .button {
   display: flex;

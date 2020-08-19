@@ -13,24 +13,36 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
+    meta: {
+      title: 'Home',
+    },
   },
 
   {
     path: '/rules',
     name: 'Rules',
     component: () => import('@/views/Rules'),
+    meta: {
+      title: 'Rules',
+    },
   },
 
   {
     path: '/login',
     name: 'Login',
     component: () => import('@/views/Login'),
+    meta: {
+      title: 'Login',
+    },
   },
 
   {
     path: '/logout',
     name: 'Logout',
     component: () => import('@/views/Logout'),
+    meta: {
+      title: 'Logout',
+    },
   },
 
   {
@@ -43,7 +55,19 @@ const routes = [
     path: '/verify',
     name: 'Verify',
     component: () => import('@/views/Verify'),
+    meta: {
+      title: 'Verify',
+    },
   },
+
+  {
+    path: '*',
+    name: '404',
+    component: () => import('@/views/404'),
+    meta: {
+      title: '404',
+    },
+  }
 
   // {
   //   path: '/legal',
@@ -56,6 +80,12 @@ const router = new VueRouter({
   mode: 'history',
   base: '/',
   routes,
+})
+
+router.beforeEach((to, _, next) => {
+  if (to.meta.title) document.title = `${to.meta.title} - devcord`
+
+  next()
 })
 
 export default router
