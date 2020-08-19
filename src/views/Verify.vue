@@ -76,11 +76,13 @@
   h2 {
     margin-top: 30px;
     margin-bottom: 5px;
+    text-align: center;
   }
 
   h4 {
     font-weight: 200;
     letter-spacing: 0.5px;
+    text-align: center;
   }
 
   .success > svg {

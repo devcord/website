@@ -2,14 +2,14 @@
   nav( :hasScrolled="hasScrolled" )
     .background
 
-    router-link.logo( to="/" )
-      Logo
+    router-link.logo( to="/" title="Home" )
+      Logo( aria-hidden="true" )
 
     //- router-link( to="#" ) Projects
     //- span •
-    router-link( to="/rules" ) Rules
+    router-link( to="/rules" title="Rules" ) Rules
     //- span •
-    //- router-link( to="#" ) Bots
+    //- router-link( to="#" title="bots" ) Bots
 </template>
 
 <script>
