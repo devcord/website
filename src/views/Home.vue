@@ -49,6 +49,13 @@
           Icon github-feather
           | Open Source
         p Work on our open-sourced projects together with our community. Learn more about our projects on our GitHub Team page.
+
+    .staff
+      h1 Staff
+      .members
+        .member( v-for="{ avatarUrl, username, discriminator } in staff" )
+          img( :src="avatarUrl" )
+          h4 {{ username }}<small>\#{{ discriminator }}</small>
 </template>
 
 <style lang="scss" scoped>
@@ -86,6 +93,60 @@
 
     h2 {
       font-size: 20px;
+    }
+  }
+
+  .staff {
+    padding: 150px;
+
+    @include md {
+      padding: 60px;
+    }
+
+    padding-top: 30px;
+
+    h1 {
+      text-align: center;
+    }
+
+    .members {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .member {
+      display: flex;
+      align-items: center;
+      padding: 60px;
+
+      img {
+        height: 100px;
+        border-radius: 50%;
+        margin-right: 15px;
+      }
+
+      h4 {
+        font-size: 20px;
+        font-weight: 200;
+        letter-spacing: 0.25px;
+
+        small {
+          opacity: 0.6;
+        }
+      }
+
+      @include lg {
+        padding: 30px;
+
+        img {
+          height: 60px;
+        }
+
+        h4 {
+          font-size: 16px;
+        }
+      }
     }
   }
 
@@ -222,11 +283,37 @@
 </style>
 
 <script>
+  import axios from 'axios'
+  import { api as apiURL } from 'config'
+
   import Icon from '@/components/Icon'
+
+  const api = axios.create({
+    baseURL: apiURL,
+    withCredentials: true,
+  })
 
   export default {
     components: {
       Icon,
-    }
+    },
+
+    data () {
+      return {
+        staff: [],
+      }
+    },
+
+    methods: {
+      async getStaff () {
+        const { data: staff } = await api.get('/discord/staff')
+
+        this.staff = staff
+      },
+    },
+
+    mounted () {
+      this.getStaff().catch(console.error)
+    },
   }
 </script>
