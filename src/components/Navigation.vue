@@ -33,12 +33,12 @@
     },
 
     mounted () {
-      this.scroll()
-      window.addEventListener('scroll', this.scroll)
+      // this.scroll()
+      // window.addEventListener('scroll', this.scroll)
     },
 
     unmounted () {
-      window.removeEventListener('scroll', this.scroll)
+      // window.removeEventListener('scroll', this.scroll)
     },
   }
 </script>
@@ -51,7 +51,8 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    position: fixed;
+    // position: fixed;
+    position: absolute;
     z-index: 10;
 
     .background {
