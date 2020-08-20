@@ -30,12 +30,12 @@ module.exports = () => ({
         oneOf: [
           {
             resourceQuery: /^\?vue/,
-            use: ['pug-plain-loader']
+            use: ['pug-plain-loader'],
           },
           {
-            use: ['pug-loader']
-          }
-        ]
+            use: ['pug-loader'],
+          },
+        ],
       },
       {
         test: /\.css$/i,
@@ -70,7 +70,7 @@ module.exports = () => ({
       },
       {
         test: /\.svg$/,
-        use: 'vue-svg-loader'
+        use: 'vue-svg-loader',
       },
     ],
   },
@@ -107,7 +107,7 @@ module.exports = () => ({
     headers: {
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
-      "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization"
+      "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization",
     },
     
     historyApiFallback: true,
