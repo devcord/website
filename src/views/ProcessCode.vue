@@ -21,18 +21,23 @@
   export default {
     data () {
       return {
-        error: ''
+        error: '',
       }
     },
 
     methods: {
       async processCode (code) {
-        const { data: {
-          memberExists,
-          hasVerifiedRole,
-        } } = await api.get('/discord/process-code?code=' + code) 
+        const {
+          data: {
+            memberExists,
+            hasVerifiedRole,
+          }, 
+        } = await api.get('/discord/process-code?code=' + code) 
         
-        console.log({ memberExists, hasVerifiedRole })
+        console.log({
+          memberExists,
+          hasVerifiedRole, 
+        })
 
         if (!memberExists) {
           this.$router.replace('/')
@@ -51,6 +56,6 @@
       } else {
         this.processCode(this.$route.query.code).catch(console.error)
       }
-    }
+    },
   }
 </script>

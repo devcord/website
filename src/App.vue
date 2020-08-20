@@ -18,8 +18,8 @@
     watch: {
       '$route' () {
         scrollTo(0, 0)
-      }
-    }
+      },
+    },
   }
 </script>
 

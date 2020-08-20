@@ -94,26 +94,5 @@ module.exports = {
         "plugin:vue/essential",
       ],
     },
-    {
-      files: ['**.ts'],
-
-      extends: [
-        "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended",
-      ],
-
-      rules: {
-        '@typescript-eslint/member-delimiter-style': ['error', {
-          multiline: {
-            delimiter: "none",
-            requireLast: true,
-          },
-          singleline: {
-            delimiter: "comma",
-            requireLast: false,
-          },
-        }],
-      }
-    },
-  ]
+  ],
 }

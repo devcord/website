@@ -67,7 +67,7 @@ const routes = [
     meta: {
       title: '404',
     },
-  }
+  },
 
   // {
   //   path: '/legal',

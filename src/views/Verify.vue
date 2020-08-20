@@ -121,9 +121,11 @@
 
     methods: {
       async verify () {
-        const { data: {
-          memberExists
-        } } = await api.get('/discord/verify')
+        const {
+          data: {
+            memberExists,
+          }, 
+        } = await api.get('/discord/verify')
 
         if (!memberExists) return this.$router.replace('/')
         
@@ -131,10 +133,12 @@
       },
 
       async checkStatus () {
-        const { data: {
-          memberExists,
-          hasVerifiedRole,
-        } } = await api.get('/discord/verification-status')
+        const {
+          data: {
+            memberExists,
+            hasVerifiedRole,
+          }, 
+        } = await api.get('/discord/verification-status')
 
         if (!memberExists) this.$router.replace('/')
         else if (hasVerifiedRole) this.verified = true
@@ -144,18 +148,18 @@
 
       async catch401 (error) {
         switch (error.response.status) {
-          case 401:
-            this.$router.replace('/login')
-            break
+        case 401:
+          this.$router.replace('/login')
+          break
           
-          default:
-            console.error(error)
+        default:
+          console.error(error)
         }
-      }
+      },
     },
     
     mounted () {
       this.checkStatus().catch(this.catch401)
-    }  
+    },  
   }
 </script>

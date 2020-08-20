@@ -23,6 +23,6 @@
     mounted () {
       console.log(apiURL)
       this.login().catch(console.error)
-    }
+    },
   }
 </script>

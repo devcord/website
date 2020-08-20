@@ -22,7 +22,7 @@
 
     data () {
       return {
-        hasScrolled: false
+        hasScrolled: false,
       }
     },
 

@@ -17,6 +17,7 @@
     "cross-env": "^7.0.2",
     "css-loader": "^4.2.1",
     "eslint": "^7.5.0",
+    "eslint-plugin-vue": "^6.2.2",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
     "pug": "^3.0.0",
@@ -36,7 +37,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
     "build": "webpack --production",
-    "lint": "eslint --fix"
+    "lint": "eslint --fix --ext .js,.vue src"
   },
   "repository": {
     "type": "git",
