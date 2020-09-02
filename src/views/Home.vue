@@ -40,7 +40,7 @@
         h2 
           Icon message-circle
           | Active Community
-        p With over 12000 registered users from all around the globe, we have a very active Discord community.
+        p With over 15,000 registered users from all around the globe, we have a very active Discord community.
 
       .card
         h2 

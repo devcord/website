@@ -6,6 +6,7 @@
       Logo( aria-hidden="true" )
 
     //- router-link( to="#" ) Projects
+    router-link( to="/logout" title="Logout" v-show="loggedIn" ) Logout
     //- span •
     router-link( to="/rules" title="Rules" ) Rules
     //- span •
@@ -14,6 +15,13 @@
 
 <script>
   import Logo from '@/assets/logo.svg'
+  import axios from 'axios'
+  import { api as apiURL } from 'config'
+
+  const api = axios.create({
+    baseURL: apiURL,
+    withCredentials: true,
+  })
 
   export default {
     components: {
@@ -23,6 +31,7 @@
     data () {
       return {
         hasScrolled: false,
+        loggedIn: false,
       }
     },
 
@@ -30,15 +39,16 @@
       scroll () {
         this.hasScrolled = window.scrollY > 0
       },
-    },
 
+      async auth () {
+        const { data: { loggedIn } } = await api.get('/discord/auth')
+
+        this.loggedIn = loggedIn
+      },
+    },
+    
     mounted () {
-      // this.scroll()
-      // window.addEventListener('scroll', this.scroll)
-    },
-
-    unmounted () {
-      // window.removeEventListener('scroll', this.scroll)
+      this.auth().catch(console.error)
     },
   }
 </script>

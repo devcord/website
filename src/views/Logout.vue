@@ -14,7 +14,7 @@
   export default {
     mounted () {
       api.get('/discord/logout').then(() => {
-        this.$router.replace('/')
+        window.location.replace('/')
       })
         .catch(console.error)
     },
