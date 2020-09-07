@@ -34,17 +34,12 @@
           }, 
         } = await api.get('/discord/process-code?code=' + code) 
         
-        console.log({
-          memberExists,
-          hasVerifiedRole, 
-        })
-
         if (!memberExists) {
-          this.$router.replace('/')
+          window.location.replace('/')
         } else if (!hasVerifiedRole) {
-          this.$router.replace('/verify')
+          window.location.replace('/verify')
         } else {
-          this.$router.replace('/verify')
+          window.location.replace('/verify')
         }
       },
     },
