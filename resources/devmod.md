@@ -9,8 +9,8 @@
 - `report <member> <reason>` — Reports a user.
 - `lmgtfy <query>` — Post a LMGTFY link.
 - `mdn <query>` — Search for an article on MDN.
-- `ping <role>` — Ping one of the help roles (without the `help-` prefix)
-- `pingable` — List all pingable roles
+- `pingable` — List all pingable roles.
+- `ping <role>` — Ping one of the help roles (without the `help-` prefix). You can ping help roles to notify helpers about your question. You may only ping once per hour, and twice daily. 
 
 <br>
 
