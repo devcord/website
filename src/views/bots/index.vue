@@ -4,7 +4,7 @@
 </template>
 
 <script>
-  import Markdown from '@/components/markdown'
+  import Markdown from '@/components/Markdown'
   import index from 'resources/bot-index.md'
 
   export default {

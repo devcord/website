@@ -4,7 +4,7 @@
 </template>
 
 <script>
-  import Markdown from '@/components/markdown'
+  import Markdown from '@/components/Markdown'
   import devmod from 'resources/devmod.md'
 
   export default {
