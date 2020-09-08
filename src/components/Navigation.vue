@@ -10,7 +10,7 @@
     //- span •
     router-link( to="/rules" title="Rules" ) Rules
     //- span •
-    //- router-link( to="#" title="bots" ) Bots
+    router-link( to="/bots" title="bots" ) Bots
 </template>
 
 <script>

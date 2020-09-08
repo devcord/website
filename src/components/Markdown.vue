@@ -79,9 +79,16 @@
       }
     }
 
+    code {
+      background-color: rgb(10, 10, 10);
+      font-family: 'Fira Code';
+      padding: 5px;
+      font-size: 14px;
+    }
+
     pre {
       background-color: rgb(10, 10, 10);
-      padding: 10px;
+      padding: 5px;
       font-size: 14px;
       border-radius: 5px;
 

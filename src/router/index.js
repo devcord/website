@@ -60,6 +60,29 @@ const routes = [
     },
   },
 
+  // {
+  //   path: '/legal',
+  //   name: 'Legal',
+  //   component: () => import('@/views/Legal'),
+  // },
+  {
+    path: '/bots',
+    name: 'BotIndex',
+    component: () => import('@/views/bots'),
+    meta: {
+      title: 'Bots',
+    },
+  },
+
+  {
+    path: '/bots/devmod',
+    name: 'Devmod',
+    component: () => import('@/views/bots/Devmod'),
+    meta: {
+      title: 'Devmod',
+    },
+  },
+
   {
     path: '*',
     name: '404',
@@ -68,12 +91,6 @@ const routes = [
       title: '404',
     },
   },
-
-  // {
-  //   path: '/legal',
-  //   name: 'Legal',
-  //   component: () => import('@/views/Legal'),
-  // },
 ]
 
 const router = new VueRouter({
