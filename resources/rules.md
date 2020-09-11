@@ -29,14 +29,14 @@ Please read this before posting: https://stackoverflow.com/help/how-to-ask
 
 <br>
 
-You may post your question in the relevant 🚧 **DEV ZONE** channel. If your question is urgent, you may ping one of the *help-* roles once per hour, and preferably not more than a few times a day. **DO NOT** look for help in the 💖 **COMMUNITY** channels.
+You may post your question in the relevant 🚧 **DEV ZONE** channel. If your question is urgent, you may ping one of the help roles by using the `.ping <role>` command to notify helpers. Please read the [bot documentation](/bots/devmod) for more details. **DO NOT** look for help in the 💖 **COMMUNITY** channels. 
  
  
 ## 💰 Jobs
 Post job listings and "for hire" advertisements in the 💰 **PAID WORK** category.
 
 ### Rules
-- Keep proof, for those on both sides of a transaction. 
+- Keep proof, for those on both sides of a transaction.
 - Scamming is a permanent and instant ban if proven. We will not take action if no proof is received.
 - Be smart. If it's too good to be true, it's too good to be true.
 - Absolutely no trolling, memeing, or offtopic is allowed in any jobs channel.
