@@ -49,5 +49,6 @@ Post job listings and "for hire" advertisements in the 💰 **PAID WORK** catego
 - Begin your post with [...] where ... is a list of comma separated tags that summarize your job posting. FRONTEND is a good broad tag, followed by a JS framework like ANGULAR. ex: [FRONTEND, ANGULAR] - the point is to make it brief, to help job seekers find jobs that match their skills and job posters find people who match their position.
 - Always note location, REMOTE or whatever CITY/COUNTRY you are listing for.
 - Always note term, TEMP, CONTRACT, INTERNSHIP, FULLTIME, etc.
+- Always note your budget for the project. This does not need to be an exact number, but rather a general idea of the project's budget. (Ex. $2000-5000)
 - If you are looking for SENIORs or you are one, add the tag.
 - Posts that do not follow the rules and guidelines will be removed.
