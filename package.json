@@ -20,7 +20,7 @@
     "eslint": "^7.5.0",
     "eslint-plugin-vue": "^6.2.2",
     "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
     "pug": "^3.0.0",
     "pug-loader": "^2.4.0",
     "pug-plain-loader": "^1.0.0",
