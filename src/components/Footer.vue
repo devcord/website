@@ -8,7 +8,7 @@ footer
       li
         a(href="https://github.com/devcord/devcord-logo") Branding
       li
-        a(href="https://discord.gg/devcord") Devcord Discord invite
+        a(href="https://discord.gg/devcord") Invite
 
   .group
     h4 Socials
