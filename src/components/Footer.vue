@@ -46,13 +46,13 @@ footer
 </template>
 
 <script>
-import Icon from "@/components/Icon";
+  import Icon from "@/components/Icon"
 
-export default {
-  components: {
-    Icon,
-  },
-};
+  export default {
+    components: {
+      Icon,
+    },
+  }
 </script>
 
 <style lang="scss" scoped>
