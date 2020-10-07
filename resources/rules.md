@@ -1,8 +1,8 @@
 ## 📔 Rules 
 - Don't be a jerk.
 - Don't discuss politics, religion, anything illegal, or anything NSFW.
-- Only ask for help in the "help" channels.
-- Jobs are only allowed in the "jobs" channels.
+- Only ask for help in the 🚧 **DEV ZONE** category.
+- Jobs are only allowed in the 💰 **PAID WORK** category.
 - Don't send unsolicited DMs for the purpose of finding help or for advertising.
 - Don't advertise your server.
 - Don't ask for help with illegal projects, or projects that break a website's Terms of Service.
