@@ -35,7 +35,7 @@ footer
         a(href="https://github.com/lostdesign/teamotes") Teamotes
 
   .group
-    h4 Projects
+    h4 Contact
     ul
       li
         a(href="mailto:info@devcord.com") info@devcord.com
