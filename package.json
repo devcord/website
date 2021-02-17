@@ -34,7 +34,7 @@
     "vue-svg-loader": "^0.16.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
