@@ -45,7 +45,7 @@
       .card
         h2 
           Icon user
-          | Friendly NPCs
+          | Friendly People
         p Find new friends, talk about web development, side projects, ask for help, talk about gaming, music and other off-topics.
 
       .card
