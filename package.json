@@ -5,7 +5,7 @@
     "axios": "^0.21.1",
     "express": "^4.17.1",
     "marked": "^2.0.0",
-    "prismjs": "^1.21.0",
+    "prismjs": "^1.25.0",
     "vue": "^2.6.11",
     "vue-router": "^3.4.3",
     "vue-template-compiler": "^2.6.11",
