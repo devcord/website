@@ -51,14 +51,14 @@ const routes = [
     component: () => import('@/views/ProcessCode'),
   },
 
-  {
-    path: '/verify',
-    name: 'Verify',
-    component: () => import('@/views/Verify'),
-    meta: {
-      title: 'Verify',
-    },
-  },
+//   {
+//     path: '/verify',
+//     name: 'Verify',
+//     component: () => import('@/views/Verify'),
+//     meta: {
+//       title: 'Verify',
+//     },
+//   },
 
   // {
   //   path: '/legal',
