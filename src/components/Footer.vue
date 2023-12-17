@@ -28,7 +28,7 @@ footer
       li
         a(href="https://github.com/devcord/devmod") devmod
       li
-        a(href="https://webgems.io/") Webgems
+        //- a(href="https://webgems.io/") Webgems
       li
         //- a( to="https://sysgems.io/" ) Sysgems
       li
